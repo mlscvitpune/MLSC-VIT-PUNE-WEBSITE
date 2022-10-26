@@ -1,0 +1,79 @@
+/* for the pen
+.tp {
+	position: relative;
+	height: 90vh;
+	display: flex;
+	overflow-x: hidden;
+	background-color: #263e6a;
+}
+
+.title {
+	text-align: center;
+	margin-top: 0px;
+	color: white;
+	z-index: 10;
+	width: 100%;
+} */
+/* waves */
+.ocean_1 {
+  /* height: 5%; */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background: #015871; */
+  transform: rotateX(180deg);
+}
+
+.ocean_2 {
+  /* height: 5%; */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* background: #015871; */
+  /* transform: rotateX(180deg); */
+}
+
+.wave_1 {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
+    repeat-x;
+  position: absolute;
+  top: -180px;
+  width: 6400px;
+  height: 180px;
+  color: #0875cb;
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+.wave_2 {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
+    repeat-x;
+  position: absolute;
+  top: -180px;
+  width: 6400px;
+  height: 180px;
+  color: #0875cb;
+  animation: wave 11s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+.wave_3 {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
+    repeat-x;
+  position: absolute;
+  top: -180px;
+  width: 6400px;
+  height: 180px;
+  color: #0875cb;
+  animation: wave 17s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
