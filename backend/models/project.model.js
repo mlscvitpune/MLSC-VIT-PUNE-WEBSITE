@@ -22,7 +22,7 @@ const projectSchema = new mongoose.Schema(
         type: String,
         required: false,
     },
-    gihtubRepo: {
+    githubRepo: {
         type: String,
         required: false,
     },
