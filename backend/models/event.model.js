@@ -73,7 +73,8 @@ const eventSchema = new mongoose.Schema(
         },
 
     },
-    { collection: "events" }
+    { collection: "events" },
+    { timestamps: true }
 )
 
 module.exports = mongoose.model("Events", eventSchema)
