@@ -6,7 +6,7 @@ const projectSchema = new mongoose.Schema(
         type: String,
         require: true,
     },
-    desciprtion: {
+    description: {
         type: String,
         required: true,
     },
