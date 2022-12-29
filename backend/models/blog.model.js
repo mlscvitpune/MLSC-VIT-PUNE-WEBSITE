@@ -14,42 +14,26 @@ const blogSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    writer: {
-        type: String,
-        required: true,
-    },
-    content: {
+    authorName: {
       type: String,
       required: true,
     },
     date: {
-        type: Date,
-        required: true,
+      type: Date,
+      required: true,
     },
-    link:{
-        type: String,
-        required: false,
-    },
-    occasion: {
-        type: String,
-        required: false,
+    link: {
+      type: String,
+      required: false,
     },
     domain: {
-        type: String,
-        required: false,
-    },
-    tags: {
-      type: Array,
+      type: String,
       required: false,
     },
-    isHidden: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
+    tags: [String],
   },
   { collection: "blogs" },
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Blogs", blogSchema)
+module.exports = mongoose.model("Blogs", blogSchema);
