@@ -52,17 +52,22 @@ const MainComponent = (props) => {
         mr={{ base: '2.2rem', md: '4rem' }}
       >
         <Flex
+          justifyContent="center"
+          alignItems="center"
+          position="relative"
           flexDir="column"
           p={{ base: '0rem', md: '2rem' }}
         >
         <SimpleImageSlider
           bgColor='#bdd9fa'
-          width={props.section.heading==='About Us'?window.innerWidth-300:0}
-          height={props.section.heading==='About Us'?window.innerHeight-150:0}
+          width={props.section.heading==='About Us'?window.innerWidth*(0.80):0}
+          height={props.section.heading==='About Us'?window.innerWidth*(0.40):0}
           images={images}
-          showBullets={true}
+          showBullets={false}
           showNavs={true}
           autoPlay={true}
+          navMargin={10}
+          navSize={20}
           autoPlayDelay={4.0}
           slideDuration={2.0}
           navStyle={2}
