@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT;
 
 import './db/conn.js';
-import eventRoutes from './routes/events.js';
+import apiRoute from './routes/api.routes.js';
 
 app.use(cors());
 app.use(express.json());
@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 });
 
 // app.use('/auth', authRoutes);
-app.use('/event',eventRoutes);
+app.use('/api',apiRoute);
 // app.use('/event',(req,res)=>{
 //   res.status(200).send("Hello from Event");
 // });

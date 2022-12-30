@@ -3,14 +3,14 @@ import {getEvents,getEvent,createEvent,updateEvent,deleteEvent} from '../control
 
 const router=express.Router();
 
-router.get('/',getEvents);
+router.get('/getEvents',getEvents);
 
-router.get('/:id',getEvent);
+router.get('/getEvent',getEvent);
 
-router.post('/',createEvent);
+router.post('/addEvent',createEvent);
 
-router.patch('/:id',updateEvent);
+router.patch('/editEvent',updateEvent);
 
-router.delete('/:id',deleteEvent);
+router.delete('/deleteEvent',deleteEvent);
 
 export default router;
