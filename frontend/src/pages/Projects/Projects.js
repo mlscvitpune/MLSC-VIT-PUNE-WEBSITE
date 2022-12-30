@@ -17,15 +17,18 @@ const Projects = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       await axiosInstance.get("/api/projects/getProjects").then((res) => {
-        setProjects(res.data.data);
+        if (res.status === 200)
+          setProjects(res.data.data);
       })
     }
     fetchProjects();
+    console.log(projects);
   },[]);
 
   const fetchProject = async (id) => {
     await axiosInstance.get(`/api/projects/getProject/${id}`).then((res) => {
-      return res.data.data;
+      if (res.status === 200)
+        return res.data.data;
     })
   }
 
