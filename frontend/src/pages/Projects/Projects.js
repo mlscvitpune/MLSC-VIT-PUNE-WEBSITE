@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import EventBlogProjectMainSection from '../../components/EventBlogProjectMainSection/EventBlogProjectMainSection';
 import { Box, Flex, Text } from '@chakra-ui/react';
+import Projectss from '../projectss/Projectss';
 
 // For Data
 import Data from './Data';
@@ -43,11 +45,7 @@ const Projects = () => {
               borderRadius="2rem"
               color="#ffffff"
               paddingY="1rem"
-            >
-              <Text textAlign="center" fontSize={{ base: '2rem', md: '3rem' }}>
-                Coming Soon
-              </Text>
-            </Flex>
+            ></Flex>
           </Box>
         )}
       </Box>

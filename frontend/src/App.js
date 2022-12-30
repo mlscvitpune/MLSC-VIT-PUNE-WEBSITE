@@ -13,9 +13,11 @@ import { extendTheme, ChakraProvider } from '@chakra-ui/react';
 import Navbar from './components/Navbar/Navbar';
 // For Footer
 import Footer from './components/Footer/Footer';
+import Waves from './utils/waves/Waves';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import FloatingButton from './components/FloatingButton/FloatingButton';
 import Loading from './components/Loading/Loading';
+import Projectss from './pages/projectss/Projectss';
 const Home = React.lazy(() => import('./pages/Home/Home'));
 const Team = React.lazy(() => import('./pages/Team/Team'));
 const Event = React.lazy(() => import('./pages/Event/Event'));
@@ -39,7 +41,7 @@ function App() {
           <ScrollToTop></ScrollToTop>
           <Suspense fallback={<Loading></Loading>}>
             <Navbar></Navbar>
-            <FloatingButton></FloatingButton>
+
             <Switch>
               <Route exact path="/" component={Home}></Route>
               <Route exact path="/team" component={Team}></Route>
@@ -47,6 +49,9 @@ function App() {
               <Route exact path="/blog" component={Blog}></Route>
               <Route exact path="/projects" component={Projects}></Route>
             </Switch>
+            <Waves />
+            <Projectss></Projectss>
+
             <Footer></Footer>
           </Suspense>
         </div>
