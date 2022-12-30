@@ -12,12 +12,12 @@ const Projectss = () => {
             {
               index: 1,
               projectTitle: 'AI Pathology',
-              projectDesc: 'sdfsdfdsfsdfdsfdsfsdf',
+              projectDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quisquam culpa cum adipisci cupiditate, blanditiis expedita corporis quia odio, doloribus vel quasi ad animi molestiae soluta. Suscipit eaque culpa ut.",
             },
             {
               index: 2,
               projectTitle: 'sdfdsf',
-              projectDesc: 'sdfsdfdsfsdfdsfdsfsdf',
+              projectDesc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, sit eum, aliquid minima nesciunt fugiat tempore, earum repellat quas ipsam voluptas consequatur mollitia? Aliquam hic voluptates delectus doloremque vero. Nesciunt?",
             },
     ];
     return(

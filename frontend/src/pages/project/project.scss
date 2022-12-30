@@ -6,7 +6,7 @@ $simple-gradient: $clr-primary, $clr-secondary;
     background-image: linear-gradient(to right, $bg);
 }
 .container{
-        
+        margin-bottom: 30px;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -18,7 +18,7 @@ $simple-gradient: $clr-primary, $clr-secondary;
     @include color-scheme($simple-gradient);    
     margin-top: 100px;
     border-radius: 20px;
-    min-width: 50%;
+    
     
     
     
@@ -31,15 +31,19 @@ $simple-gradient: $clr-primary, $clr-secondary;
         .info{
             display: flex;
             gap: 70px;
+           
+           
             
             p{
                 color: white;
                 font-weight: bold;
                 margin-top: 20px;
+                
             }
             
             img{
                border-radius: 20px;
+               
                
             }
 
@@ -48,7 +52,9 @@ $simple-gradient: $clr-primary, $clr-secondary;
                 flex-direction: column;
                 width: 400px;
                 align-items: center;
-                gap: 30px;
+                justify-content: space-between;
+                padding-bottom: 20px;
+                
 
 
                 

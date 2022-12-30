@@ -40,11 +40,11 @@ const Project = ({project})=>{
                 whileHover={{
                     
                     scale: 1.3,
-                }}/>
-                <div className="projectinfo">
+                }} />
+                <div className="projectinfo" style={{marginRight: "30px"}}>
                 
                     <p>{project.projectDesc}</p>
-                    <BasicUsage className="button"/>
+                    <BasicUsage />
                 </div>
                 
                 </div>
@@ -65,7 +65,7 @@ else{
                 
                 <div className="projectinfo" >
                 
-                    <p>{project.projectDesc}</p>
+                    <p style={{marginLeft: "30px"}}>{project.projectDesc}</p>
                     <BasicUsage/>
 
                 </div>
