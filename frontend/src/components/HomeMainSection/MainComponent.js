@@ -60,7 +60,7 @@ const MainComponent = (props) => {
         >
         <SimpleImageSlider
           bgColor='#bdd9fa'
-          width={props.section.heading==='About Us'?window.innerWidth*(0.80):0}
+          width={props.section.heading==='About Us'?window.innerWidth*(0.85):0}
           height={props.section.heading==='About Us'?window.innerWidth*(0.40):0}
           images={images}
           showBullets={false}
