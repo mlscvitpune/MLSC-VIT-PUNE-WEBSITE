@@ -9,8 +9,6 @@ const port = process.env.PORT;
 import './db/conn.js';
 import apiRoute from './routes/api.routes.js';
 
-import apiRoute from './routes/api.routes.js';
-
 
 app.use(cors());
 app.use(express.json());
