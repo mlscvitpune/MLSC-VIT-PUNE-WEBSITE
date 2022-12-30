@@ -7,7 +7,6 @@ const app = express();
 const port = process.env.PORT;
 
 import './db/conn.js';
-
 import apiRoute from './routes/api.routes.js';
 
 
@@ -18,7 +17,7 @@ app.get('/', (req, res) => {
   res.status(200).send('SERVER IS RUNNING');
 });
 
-app.use('/api', apiRoute);
+app.use('/api',apiRoute);
 
 app.listen(port, () => {
   console.log(`server started on http://localhost:${port}`);
