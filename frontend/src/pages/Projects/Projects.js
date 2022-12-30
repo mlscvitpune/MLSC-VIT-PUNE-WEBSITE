@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import EventBlogProjectMainSection from '../../components/EventBlogProjectMainSection/EventBlogProjectMainSection';
 import { Box, Flex, Text } from '@chakra-ui/react';
 
@@ -8,7 +8,27 @@ import Data from './Data';
 import ProjectSectionLeft from '../../components/ProjectSections/ProjectSectionLeft';
 import ProjectSectionRight from '../../components/ProjectSections/ProjectSectionRight';
 
+import axiosInstance from '../../utils/axiosInstance';
+
 const Projects = () => {
+
+  const [projects, setProjects] = useState([])
+
+  useEffect(() => {
+    const fetchProjects = async () => {
+      await axiosInstance.get("/api/projects/getProjects").then((res) => {
+        setProjects(res.data.data);
+      })
+    }
+    fetchProjects();
+  },[]);
+
+  const fetchProject = async (id) => {
+    await axiosInstance.get(`/api/projects/getProject/${id}`).then((res) => {
+      return res.data.data;
+    })
+  }
+
   return (
     <>
       <EventBlogProjectMainSection
