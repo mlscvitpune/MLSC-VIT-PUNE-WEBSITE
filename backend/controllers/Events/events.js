@@ -15,7 +15,7 @@ export const getEvents=async (req,res)=>{
 //read single event
 export const getEvent=async (req,res)=>{
     try{
-        const {id}=req.body;
+        const {id}=req.params;
         const eventDetail=await Events.findById(id);
         if(!eventDetail){
             res.status(404).json({message:"Failed to fetch event, event with given ID does not exits, Bad Request"});

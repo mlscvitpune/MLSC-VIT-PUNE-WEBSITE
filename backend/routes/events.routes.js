@@ -5,7 +5,7 @@ const router=express.Router();
 
 router.get('/getEvents',getEvents);
 
-router.get('/getEvent',getEvent);
+router.get('/getEvent/:id',getEvent);
 
 router.post('/addEvent',createEvent);
 
