@@ -1,5 +1,6 @@
 import React from 'react';
 import CountUp from 'react-countup';
+import SimpleImageSlider from 'react-simple-image-slider';
 import VisibilitySensor from 'react-visibility-sensor';
 import { Link } from 'react-router-dom';
 
@@ -12,6 +13,8 @@ import styles from '../EventBlogProjectMainSection/EventBlogProjectMainSection.m
 import useScroll from '../../utils/useScroll';
 import { motion } from 'framer-motion';
 import { leftAnim, rightAnime, titleAnim } from '../../utils/useAnimation';
+
+
 const MainComponent = (props) => {
   const [headingElem, controlsHeading] = useScroll();
 
@@ -20,6 +23,12 @@ const MainComponent = (props) => {
   const [bubble2, controlBubble2] = useScroll();
   const [bottomInfo, controlbottomInfo] = useScroll();
   const [imgElem, controlImgElem] = useScroll();
+
+  const images =[
+    { url: "Images/TeamPics/teamPic1.jpg"},
+    { url: "Images/TeamPics/teamPic1.jpg"}
+  ];
+  
   return (
     <Box>
       <br />
@@ -42,6 +51,31 @@ const MainComponent = (props) => {
         ml={{ base: '2.2rem', md: '4rem' }}
         mr={{ base: '2.2rem', md: '4rem' }}
       >
+        <Flex
+          justifyContent="center"
+          alignItems="center"
+          position="relative"
+          flexDir="column"
+          p={{ base: '0rem', md: '2rem' }}
+        >
+        <SimpleImageSlider
+          bgColor='#bdd9fa'
+          width={props.section.heading==='About Us'?window.innerWidth*(0.85):0}
+          height={props.section.heading==='About Us'?window.innerWidth*(0.40):0}
+          images={images}
+          showBullets={false}
+          showNavs={true}
+          autoPlay={true}
+          navMargin={10}
+          navSize={20}
+          autoPlayDelay={4.0}
+          slideDuration={2.0}
+          navStyle={2}
+          loop={true}
+        />
+        </Flex>
+
+        
         <motion.div
           ref={headingElem}
           initial="before"
@@ -74,10 +108,9 @@ const MainComponent = (props) => {
               variants={leftAnim}
               initial="before"
             >
-              {' '}
               <Box p={{ base: '0rem', md: '4rem' }}>{props.section.info}</Box>
             </motion.div>
-          ) : (
+           ) : (
             <>
               {props.section.heading !== 'Events' ? (
                 <motion.div
@@ -95,7 +128,7 @@ const MainComponent = (props) => {
                       // mr={{ base: '2rem', md: '4rem' }}
                       p={{ base: '2rem', md: '4rem' }}
                       fontSize="2rem"
-                      borderRadius="50%"
+                      borderRadius="40%"
                       bg="#bdd9fa"
                       w={{ base: '8rem', md: '10rem' }}
                       h={{ base: '8rem', md: '10rem' }}
@@ -143,7 +176,7 @@ const MainComponent = (props) => {
                         // mr={{ base: '2rem', md: '4rem' }}
                         p={{ base: '2rem', md: '4rem' }}
                         fontSize="2rem"
-                        borderRadius="50%"
+                        borderRadius="40%"
                         bg="#bdd9fa"
                         w={{ base: '8rem', md: '10rem' }}
                         h={{ base: '8rem', md: '10rem' }}
@@ -180,7 +213,7 @@ const MainComponent = (props) => {
                         // mr={{ base: '2rem', md: '4rem' }}
                         p={{ base: '2rem', md: '4rem' }}
                         fontSize="2rem"
-                        borderRadius="50%"
+                        borderRadius="40%"
                         bg="#bdd9fa"
                         w={{ base: '8rem', md: '10rem' }}
                         h={{ base: '8rem', md: '10rem' }}
