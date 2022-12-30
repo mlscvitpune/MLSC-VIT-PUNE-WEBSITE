@@ -3,9 +3,10 @@ import Project from "../models/project.model.js";
 const getProjects = async (req, res) => {
   try {
     const projects = await Project.find();
-    res.status(200).json({message: "Fetched all projects", data: projects});
+    if(projects) res.status(200).json({message: "Fetched all projects", data: projects});
+    else res.status(400).json({ message: "Failed to fetch projects", });
   } catch (error) {
-    res.status(404).json({ message: "Failed to fetch projects", data: error.message });
+    res.status(400).json({ message: "Failed to fetch projects", error: error.message });
   }
 };
 
@@ -14,49 +15,49 @@ const getProject = async (req, res) => {
   try {
     const project = await Project.findOne({_id: id});
     if (!project)
-        return res.status(400).json({ message: "Failed to fetch project", data: "Bad Request" });
+      return res.status(400).json({ message: "Failed to fetch project" });
     res.status(200).json({message: "Fetched project successfully", data: project});
   } catch(error) {
-    res.status(404).json({ message: "Failed to fetch projects", data: error.message });
+    res.status(400).json({ message: "Failed to fetch projects", error: error.message });
   }
 };
 
 const createProject = async (req, res) => {
-  const project = req.body;
-  if (!project)
-    res.status(400).json({ message: "Failed to fetch project", data: error.message });
+  const { name, description, thumbnail, images, liveLink, githubRepo } = req.body;
   try {
-    const { name, description, thumbnail, images, liveLink, githubRepo } = project
-    const newProject = new Project({
-      name: name,
-      description: description,
-      thumbnail: thumbnail,
-      images: images,
-      liveLink: liveLink,
-      githubRepo: githubRepo ? githubRepo : "",
-    });
-    await newProject.save();
-    res.status(200).json({ message: "200", data: newProject });
+
+    const exist = await Project.findOne({name});
+    if(exist) res.status(400).json({ message: "Project Already Exists" });
+    else{
+      const newProject = new Project({
+        name,
+        description,
+        thumbnail,
+        images,
+        liveLink,
+        githubRepo,
+      });
+      const check = await newProject.save();
+      if(check) res.status(200).json({ message: "New Project Created", data: newProject });
+      else res.status(400).json({ message: "Failed to Create project"});
+    }
   } catch (error) {
-    res.status(404).json({ message: "Failed to fetch project", data: error.message });
+    res.status(400).json({ message: "Failed to fetch project", data: error.message });
   }
 };
 
 const updateProject = async (req, res) => {
-  const project = req.body;
-  if (!project)
-    return res.status(400).json({ message: "Failed to update request" });
+  const { id,name, description, thumbnail, images, liveLink, githubRepo } = req.body;
   try {
-    const { name, description, thumbnail, images, liveLink, githubRepo } = project
     const updatedProject = await Project.findByIdAndUpdate(
-      project._id,
+      id,
       {
-        name: name,
-        description: description,
-        thumbnail: thumbnail,
-        images: images,
-        liveLink: liveLink,
-        githubRepo: githubRepo ? githubRepo : "",
+        name,
+        description,
+        thumbnail,
+        images,
+        liveLink,
+        githubRepo,
       },
       { new: true }
     );
@@ -64,19 +65,18 @@ const updateProject = async (req, res) => {
         return res.status(400).json({ message: "Failed to update project" });
     res.status(200).json({ message: "Updated project successfully", updatedProject });
   } catch (error) {
-    res.status(404).json({ message: "Failed to update project", data: error.message });
+    res.status(400).json({ message: "Failed to update project", data: error.message });
   }
 };
 
 const deleteProject = async (req, res) => {
-  const project = req.body;
-  if (!project)
-    return res.status(400).json({ message: "Failed to delete project" });
+  const {id} = req.body;
   try {
-    const deletedProject = await Project.findByIdAndDelete(project._id);
-    res.status(200).json({ message: "Deleted project successfully", data: deletedProject });
+    const deletedProject = await Project.findByIdAndDelete(id);
+    if(deletedProject) res.status(200).json({ message: "Deleted project successfully" });
+    else res.status(400).json({ message: "Failed to delete project" });
   } catch (error) {
-    res.status(404).json({ message: "Failed to delete project", data: error.message });
+    res.status(400).json({ message: "Failed to delete project", data: error.message });
   }
 };
 

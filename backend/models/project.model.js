@@ -21,7 +21,7 @@ const projectSchema = new mongoose.Schema(
     },
     githubRepo: {
       type: String,
-      required: false,
+      required: true,
     },
   },
   { collection: "projects" },
