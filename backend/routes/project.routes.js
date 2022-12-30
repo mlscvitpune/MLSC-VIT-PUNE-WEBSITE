@@ -6,7 +6,7 @@ import { getProjects, getProject, createProject, updateProject, deleteProject } 
 router.get('/getProjects', getProjects);
 router.get('/getProject/:id', getProject);
 router.post('/createProject', createProject);
-router.post('/updateProject', updateProject);
-router.post('/deleteProject', deleteProject);
+router.put('/updateProject', updateProject);
+router.delete('/deleteProject', deleteProject);
 
 export default router;
