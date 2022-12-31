@@ -49,8 +49,6 @@ function App() {
               <Route exact path="/blog" component={Blog}></Route>
               <Route exact path="/projects" component={Projects}></Route>
             </Switch>
-            <Waves />
-            <Projectss></Projectss>
 
             <Footer></Footer>
           </Suspense>
