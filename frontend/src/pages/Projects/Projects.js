@@ -57,7 +57,11 @@ const Projects = () => {
             );
           })
         ) : (
-          <Box marginBottom="5rem"></Box>
+          <Box marginBottom="1rem">
+            {/* <span>LEARN</span>
+            <span>BUILD</span>
+            <span>EMPOWER</span> */}
+          </Box>
         )}
       </Box>
       <Waves />
