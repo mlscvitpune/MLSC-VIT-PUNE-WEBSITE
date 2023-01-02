@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^1.2.2",
     "framer-motion": "^4",
+    "i": "^0.3.7",
     "lorem-ipsum": "^2.0.4",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",

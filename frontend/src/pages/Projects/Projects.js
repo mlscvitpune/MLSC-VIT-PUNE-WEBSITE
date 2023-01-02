@@ -12,6 +12,7 @@ import ProjectSectionRight from '../../components/ProjectSections/ProjectSection
 
 import axiosInstance from '../../utils/axiosInstance';
 import Waves from '../../utils/waves/Waves';
+import Typing from '../typing/Typing';
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -40,30 +41,30 @@ const Projects = () => {
         sectionText="Microsoft Learn Student Club strongly believes in learning through applying hands on knowledge, Thus various problem statements and projects are assigned to team members regularly in order to help them develop their skill and build a practical approach towards theoritical knowledge. We have worked on several problem statements until now covering domains like Web Development, Machine Learning and Artificial Intelligence, IOT, Robotics, Image Processing, etc. "
       ></EventBlogProjectMainSection>
       <Box marginTop="5rem">
-        {Data.length !== 0 ? (
-          Data.map((data) => {
-            return data.index % 2 === 0 ? (
-              <ProjectSectionLeft
-                key={data.index}
-                projectTitle={data.projectTitle}
-                projectDesc={data.projectDesc}
-              ></ProjectSectionLeft>
-            ) : (
-              <ProjectSectionRight
-                key={data.index}
-                projectTitle={data.projectTitle}
-                projectDesc={data.projectDesc}
-              ></ProjectSectionRight>
-            );
-          })
-        ) : (
-          <Box marginBottom="1rem">
-            {/* <span>LEARN</span>
+        {Data.length !== 0
+          ? Data.map((data) => {
+              return data.index % 2 === 0 ? (
+                <ProjectSectionLeft
+                  key={data.index}
+                  projectTitle={data.projectTitle}
+                  projectDesc={data.projectDesc}
+                ></ProjectSectionLeft>
+              ) : (
+                <ProjectSectionRight
+                  key={data.index}
+                  projectTitle={data.projectTitle}
+                  projectDesc={data.projectDesc}
+                ></ProjectSectionRight>
+              );
+            })
+          : ({
+              /* <span>LEARN</span>
             <span>BUILD</span>
-            <span>EMPOWER</span> */}
-          </Box>
-        )}
+            <span>EMPOWER</span> */
+            },
+            (<></>))}
       </Box>
+      <Typing />
       <Waves />
       <Projectss />
     </>

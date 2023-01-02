@@ -1,0 +1,62 @@
+
+
+.typing{
+   
+   
+    
+    font-size: 70px;
+    font-weight: 800;
+    width: fit-content;
+    
+    left: 0;
+    right: 0;
+    margin: auto;
+    background:linear-gradient(to right, rgb(10, 10, 65),rgb(33, 33, 111), rgb(69, 69, 169), rgb(116, 116, 231), rgb(192, 192, 247), white,rgb(192, 192, 247), rgb(116, 116, 231), rgb(69, 69, 169), rgb(33, 33, 111), rgb(10, 10, 65));
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px;
+    
+    background-clip: text;
+    color: transparent;
+    animation: bg-animation 10s infinite alternate;
+    background-size: 400%;
+    background-position: 0%;
+    
+}
+
+.typing > .animate{
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+@keyframes bg-animation{
+0%{
+    background-position: 0%;
+}
+
+25%{
+    background-position: 25%;
+}
+50%{
+    background-position: 50%;
+}
+75%{
+    background-position: 75%;
+}
+100%{
+    background-position: 150%;
+}
+
+}
+
+
+
+
+    
+
+
