@@ -1,0 +1,64 @@
+$clr-primary: rgb(88, 73, 154);
+$clr-secondary: rgb(59, 59, 105);
+$simple-gradient: $clr-primary, $clr-secondary;
+
+@mixin color-scheme($bg){
+    background-image: linear-gradient(to right, $bg);
+}
+.container{
+        margin-bottom: 30px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+.project{
+  
+    display: flex;
+    flex-direction: column;
+    @include color-scheme($simple-gradient);    
+    margin-top: 100px;
+    border-radius: 20px;
+    
+    
+    
+    
+    width: 1000px;
+    
+    
+    
+        
+            
+        .info{
+            display: flex;
+            gap: 70px;
+           
+           
+            
+            p{
+                color: white;
+                font-weight: bold;
+                margin-top: 20px;
+                
+            }
+            
+            img{
+               border-radius: 20px;
+               
+               
+            }
+
+            .projectinfo{
+                display:flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 20px;
+                
+
+
+                
+            }
+        }
+    }   
+}
