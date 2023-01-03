@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import Events from '../../models/event.model.js';
+import Events from '../models/event.model.js';
 
 //read all events
 export const getEvents=async (req,res)=>{
