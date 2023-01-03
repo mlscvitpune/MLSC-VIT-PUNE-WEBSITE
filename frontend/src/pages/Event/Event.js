@@ -1,14 +1,41 @@
-import React from 'react';
+import React, {useEffect,useState} from 'react';
 import { Box } from '@chakra-ui/react';
 
 import EventBlogProjectMainSection from '../../components/EventBlogProjectMainSection/EventBlogProjectMainSection';
 
 // For Data
 import Data from './Data';
+import axiosInstance from '../../utils/axiosInstance';
 import EventModalSectionRight from '../../components/EventModalSection/EventModalSectionRight';
 import EventModelSectionLeft from '../../components/EventModalSection/EventModelSectionLeft';
 
 const ProjectMainSection = () => {
+  const [events,setEvents]=useState([]);
+
+  useEffect(()=>{
+    const fetchEvents=async()=>{
+      await axiosInstance.get('/api/events/getEvents')
+      .then((res)=>{
+        if(res.status===200)setEvents(res.data.data);
+      })
+      .catch(function (error){
+        connsole.log(error);
+      });
+    }
+    fetchEvents();
+    console.log(events);
+  },[]);
+
+  const fetchEvent=async(id)=>{
+    await axiosInstance.get(`/api/events/getEvents/${id}`)
+    .then((res)=>{
+      if(res.status===200) return res.data.data;
+    })
+    .catch(function (error){
+      connsole.log(error);
+    });
+  }
+
   return (
     <main>
       <EventBlogProjectMainSection
