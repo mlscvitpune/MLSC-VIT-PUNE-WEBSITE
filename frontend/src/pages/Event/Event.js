@@ -32,7 +32,7 @@ const ProjectMainSection = () => {
       if(res.status===200) return res.data.data;
     })
     .catch(function (error){
-      connsole.log(error);
+      console.log(error);
     });
   }
 
