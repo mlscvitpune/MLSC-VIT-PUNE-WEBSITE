@@ -1,4 +1,4 @@
-import React, {useEffect,useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import { Box } from '@chakra-ui/react';
 
 import EventBlogProjectMainSection from '../../components/EventBlogProjectMainSection/EventBlogProjectMainSection';
@@ -10,31 +10,33 @@ import EventModalSectionRight from '../../components/EventModalSection/EventModa
 import EventModelSectionLeft from '../../components/EventModalSection/EventModelSectionLeft';
 
 const ProjectMainSection = () => {
-  const [events,setEvents]=useState([]);
+  const [events, setEvents] = useState([]);
 
-  useEffect(()=>{
-    const fetchEvents=async()=>{
-      await axiosInstance.get('/api/events/getEvents')
-      .then((res)=>{
-        if(res.status===200)setEvents(res.data.data);
-      })
-      .catch(function (error){
-        connsole.log(error);
-      });
-    }
+  useEffect(() => {
+    const fetchEvents = async () => {
+      await axiosInstance
+        .get('/api/events/getEvents')
+        .then((res) => {
+          if (res.status === 200) setEvents(res.data.data);
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+    };
     fetchEvents();
     console.log(events);
-  },[]);
+  }, []);
 
-  const fetchEvent=async(id)=>{
-    await axiosInstance.get(`/api/events/getEvents/${id}`)
-    .then((res)=>{
-      if(res.status===200) return res.data.data;
-    })
-    .catch(function (error){
-      console.log(error);
-    });
-  }
+  const fetchEvent = async (id) => {
+    await axiosInstance
+      .get(`/api/events/getEvents/${id}`)
+      .then((res) => {
+        if (res.status === 200) return res.data.data;
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  };
 
   return (
     <main>
