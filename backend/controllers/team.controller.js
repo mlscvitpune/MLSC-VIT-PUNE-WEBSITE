@@ -16,7 +16,7 @@ export const getTeams=async (req,res)=>{
 export const getTeamsByYear=async (req,res)=>{
     try{
         const year=req.params.year;
-        const team=await Teams.find({year});
+        const team=await Teams.find({year}).sort({domain:1});
         res.status(200).json({message:"Fetched MLSC Team",data:team});
     }
     catch(e){
@@ -28,7 +28,7 @@ export const getTeamsByYear=async (req,res)=>{
 export const getTeamsByDomain=async (req,res)=>{
     try{
         const domain=req.params.domain;
-        const team=await Teams.find({domain});
+        const team=await Teams.find({domain}).sort({year:-1});
         res.status(200).json({message:"Fetched MLSC Team",data:team});
     }
     catch(e){
