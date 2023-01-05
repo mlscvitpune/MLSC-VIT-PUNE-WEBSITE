@@ -66,7 +66,7 @@ const Navbar = () => {
       <nav>
         <Box position="relative" zIndex="2" bg="#121212" px={4} py={1}>
           <Flex alignItems="center">
-            <Box p={2} color="white" fontSize={{ base: '1rem', md: '1.5rem' }}>
+            <Box p={2} color="white" fontSize={{ base: '1rem', md: '1.4rem' }} fontStyle = {" "}>
               <Flex alignItems="center">
                 <Image
                   src="/Images/MLSC Logo Changed.png"
