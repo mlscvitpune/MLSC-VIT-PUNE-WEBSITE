@@ -4,8 +4,10 @@ import { Box, Center, Flex } from '@chakra-ui/layout';
 import { Image } from '@chakra-ui/image';
 import { Text } from '@chakra-ui/layout';
 import styles from '../../pages/Event/Event.module.css';
-import { motion } from 'framer-motion';
-import { titleAnim, titleAnim2 } from '../../utils/useAnimation';
+// import { motion } from 'framer-motion';
+// import { titleAnim, titleAnim2 } from '../../utils/useAnimation';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 const Landing = () => {
   return (
@@ -39,16 +41,16 @@ const Landing = () => {
             alignItems="center"
             flexDirection="column"
           >
-            <motion.div variants={titleAnim} animate="after" initial="before">
+            <Fade top>
               <Text fontWeight={500} fontSize={{ base: '2.8rem', md: '5rem' }}>
                 MLSC VIT Pune
               </Text>
-            </motion.div>
-            <motion.div variants={titleAnim2} animate="after" initial="before">
+            </Fade>
+            <Zoom>
               <Text fontSize={{ base: '1.8rem', md: '3rem' }}>
                 Learn-Build-Inspire
               </Text>
-            </motion.div>
+            </Zoom>
           </Flex>
         </Center>
       </Flex>

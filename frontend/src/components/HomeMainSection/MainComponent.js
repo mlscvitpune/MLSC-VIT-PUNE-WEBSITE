@@ -4,25 +4,27 @@ import SimpleImageSlider from 'react-simple-image-slider';
 import VisibilitySensor from 'react-visibility-sensor';
 import { Link } from 'react-router-dom';
 
-import { Box, Flex, Center } from '@chakra-ui/react';
+import { Box, Flex, Center, Image } from '@chakra-ui/react';
 import { Button } from '@chakra-ui/react';
 import { Text } from '@chakra-ui/layout';
 
 import styles from '../EventBlogProjectMainSection/EventBlogProjectMainSection.module.css';
 
-import useScroll from '../../utils/useScroll';
-import { motion } from 'framer-motion';
-import { leftAnim, rightAnime, titleAnim } from '../../utils/useAnimation';
+// import useScroll from '../../utils/useScroll';
+// import { motion } from 'framer-motion';
+// import { leftAnim, rightAnime, titleAnim } from '../../utils/useAnimation';
+
+import Fade from 'react-reveal/Fade';
 
 
 const MainComponent = (props) => {
-  const [headingElem, controlsHeading] = useScroll();
+  // const [headingElem, controlsHeading] = useScroll();
 
-  const [infoElem, controlInfo] = useScroll();
-  const [bubble1, controlBubble1] = useScroll();
-  const [bubble2, controlBubble2] = useScroll();
-  const [bottomInfo, controlbottomInfo] = useScroll();
-  const [imgElem, controlImgElem] = useScroll();
+  // const [infoElem, controlInfo] = useScroll();
+  // const [bubble1, controlBubble1] = useScroll();
+  // const [bubble2, controlBubble2] = useScroll();
+  // const [bottomInfo, controlbottomInfo] = useScroll();
+  // const [imgElem, controlImgElem] = useScroll();
 
   const images =[
     { url: "Images/TeamPics/teamPic1.jpg"},
@@ -76,12 +78,7 @@ const MainComponent = (props) => {
         </Flex>
 
         
-        <motion.div
-          ref={headingElem}
-          initial="before"
-          variants={titleAnim}
-          animate={controlsHeading}
-        >
+        <Fade>
           <Center
             mb={{ base: '1rem', md: '0rem' }}
             fontSize={{ base: '2rem', md: '4rem' }}
@@ -89,7 +86,7 @@ const MainComponent = (props) => {
           >
             {props.section.heading}
           </Center>
-        </motion.div>
+        </Fade>
         <Flex
           flexDir={
             props.section.index % 2 === 1
@@ -102,27 +99,19 @@ const MainComponent = (props) => {
           textAlign="center"
         >
           {props.section.heading === 'About Us' ? (
-            <motion.div
-              ref={infoElem}
-              animate={controlInfo}
-              variants={leftAnim}
-              initial="before"
-            >
+            <Fade left>
               <Box p={{ base: '0rem', md: '3rem' }}>{props.section.info}</Box>
-            </motion.div>
+            </Fade>
            ) : (
             <>
               {props.section.heading !== 'Events' ? (
-                <motion.div
-                  ref={bubble1}
-                  initial="before"
-                  variants={leftAnim}
-                  animate={controlBubble1}
-                >
+                <Fade left>
                   <Flex
                     flexDirection="column"
                     justifyContent="center"
                     alignItems="center"
+                    marginRight="0rem"
+                    marginLeft="8rem"
                   >
                     <Flex
                       // mr={{ base: '2rem', md: '4rem' }}
@@ -156,14 +145,10 @@ const MainComponent = (props) => {
                       Ongoing Projects
                     </Text>
                   </Flex>
-                </motion.div>
+                </Fade>
               ) : (
-                <motion.div
-                  ref={bubble2}
-                  initial="before"
-                  animate={controlBubble2}
-                  variants={rightAnime}
-                >
+                <Fade right>
+                
                   <Flex justifyContent="center" alignItems="center">
                     <Flex
                       flexDirection="column"
@@ -242,21 +227,55 @@ const MainComponent = (props) => {
                       </Text>
                     </Flex>
                   </Flex>
-                </motion.div>
+                </Fade>
               )}
             </>
           )}
           {/* <motion.div
             
           > */}
-          <motion.img
+          {props.section.heading === 'Events'?(
+            <Fade left>
+            <Image
+            src="/Images/Events_Image_3.jpg"
+            width="50rem"
+            margin="2rem"
+            marginLeft="1rem"
+            />
+            </Fade>
+            
+          ):(
+          <>
+           {props.section.heading === 'About Us'?(
+                <Image
+                  src=""
+                  width="0rem"
+                  margin="0rem"
+                  marginLeft="0rem"
+                />
+           )
+           :(
+              <Fade right>
+                <Image
+                  src="/Images/Projects_Image_3.jpg"
+                  width="50rem"
+                  margin="2rem"
+                  marginLeft="4rem"
+                />
+              </Fade>
+           )
+           }
+          </>
+          )
+          }
+          {/* <motion.img
             ref={imgElem}
             variants={props.section.index % 2 === 0 ? rightAnime : leftAnim}
             initial="before"
             animate={controlImgElem}
             style={{ marginLeft: props.section.heading !== 'About Us'?'8rem':'0rem', margin: props.section.headign?'4rem':'0', width: props.section.heading !== 'About Us'?'40rem':'' }}
             src={props.section.heading === 'Events'? "/Images/Events_Image_3.jpg":props.section.heading === 'Projects'? "/Images/Projects_Image_3.jpg":""}
-          />
+          /> */}
           {/* </motion.div> */}
         </Flex>
         {props.section.heading === 'About Us' ? (
@@ -270,12 +289,7 @@ const MainComponent = (props) => {
         ) : (
           <Box>
             <Flex justifyContent="center" alignItems="center" flexDir="column">
-              <motion.div
-                ref={bottomInfo}
-                variants={titleAnim}
-                initial="before"
-                animate={controlbottomInfo}
-              >
+              <Fade bottom>
                 <Box
                   m={{ base: '1rem', md: '3rem' }}
                   ml={{ base: '1rem', md: '5rem' }}
@@ -285,7 +299,7 @@ const MainComponent = (props) => {
                 >
                   {props.section.bottomInfo}
                 </Box>
-              </motion.div>
+              </Fade>
               <Button
                 fontSize={{ base: '1rem', md: '1.6rem' }}
                 variant="solid"
