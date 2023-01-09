@@ -305,7 +305,7 @@ const MainComponent = (props) => {
                 variant="solid"
                 p={{ base: '1rem', md: '2rem' }}
                 mt={{ base: '1rem', md: '2rem' }}
-                bolderRadius="50px"
+                borderRadius="40px"
                 colorScheme="blue"
                 shadow= "md"
               >
