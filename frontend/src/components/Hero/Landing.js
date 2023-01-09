@@ -26,7 +26,7 @@ const Landing = () => {
       >
         <Center p="1">
           <Image
-            w={{ base: '200px', md: '358px' }}
+            w={{ base: '200px', md: '500px' }}
             src="/Images/MLSC Logo Changed.png"
             position="relative"
             alt=""

@@ -9,6 +9,7 @@ import {
   HStack,
   Collapse,
   Image,
+  Center,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { Link } from 'react-router-dom';
@@ -52,7 +53,9 @@ const NavLink = ({ children, path, onClose }) => {
           // fontSize: '1.2rem',
         }}
       >
+        <Center>
         {children}
+        </Center>
       </Box>
     </Link>
   );
