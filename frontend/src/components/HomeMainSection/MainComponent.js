@@ -83,7 +83,7 @@ const MainComponent = (props) => {
           animate={controlsHeading}
         >
           <Center
-            mb={{ base: '2rem', md: '0' }}
+            mb={{ base: '1rem', md: '0rem' }}
             fontSize={{ base: '2rem', md: '4rem' }}
             fontWeight="600"
           >
@@ -108,7 +108,7 @@ const MainComponent = (props) => {
               variants={leftAnim}
               initial="before"
             >
-              <Box p={{ base: '0rem', md: '4rem' }}>{props.section.info}</Box>
+              <Box p={{ base: '0rem', md: '3rem' }}>{props.section.info}</Box>
             </motion.div>
            ) : (
             <>
@@ -254,8 +254,8 @@ const MainComponent = (props) => {
             variants={props.section.index % 2 === 0 ? rightAnime : leftAnim}
             initial="before"
             animate={controlImgElem}
-            style={{ marginLeft: '8rem', margin: '4rem', width: '26rem' }}
-            src="/Images/AboutUs.png"
+            style={{ marginLeft: props.section.heading !== 'About Us'?'8rem':'0rem', margin: props.section.headign?'4rem':'0', width: props.section.heading !== 'About Us'?'40rem':'' }}
+            src={props.section.heading === 'Events'? "/Images/Events_Image_3.jpg":props.section.heading === 'Projects'? "/Images/Projects_Image_3.jpg":""}
           />
           {/* </motion.div> */}
         </Flex>
@@ -288,10 +288,12 @@ const MainComponent = (props) => {
               </motion.div>
               <Button
                 fontSize={{ base: '1rem', md: '1.6rem' }}
-                variant="outline"
+                variant="solid"
                 p={{ base: '1rem', md: '2rem' }}
                 mt={{ base: '1rem', md: '2rem' }}
+                bolderRadius="50px"
                 colorScheme="blue"
+                shadow= "md"
               >
                 <Link to={props.section.link}>{props.section.buttonTitle}</Link>
               </Button>
