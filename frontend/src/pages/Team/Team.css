@@ -5,7 +5,8 @@ body {
 }
 
 .background-blue {
-  background-color: #21355a;
+  background-color: #172744;
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.432) 0.1%, #21355a, #21355a, #21355a, #21355a, #21355a); */
 }
 .background-wave {
   background-color: #032036;
@@ -25,13 +26,14 @@ body {
   margin: 0 auto 0.5rem;
 }
 .member-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
+  margin-top: 1rem;
+  position: relative;
+  width: 210px;
+  height: 210px;
+  border-radius: 20%;
   background: #dddddd;
   background-size: cover;
   object-fit: cover;
-  box-shadow: inset -5px 5px 22px #c5c5c5, inset 5px -5px 22px #f5f5f5;
 }
 
 @media screen and (max-width: 768px) {
@@ -208,9 +210,11 @@ body {
   font-size: large;
 }
 .position {
-  font-weight: 500;
-  color: #95d1cc;
-  font-size: medium;
+  margin-top: 2rem;
+  
+  font-weight: 600;
+  color: #ffffff;
+  font-size:large;
 }
 .social-icons {
   transition: 0.3s all;
@@ -342,4 +346,19 @@ body {
   from {
     transform: rotate(360deg);
   }
+}
+
+._card{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  z-index: 1;
+  height: 390px;
+  width: 295px;
+  background-color: #25168178;
+  border: solid;
+  border-color: #3856C2;
+  border-width: 3px;
+  border-radius: 44px;
+  object-fit: cover;
 }

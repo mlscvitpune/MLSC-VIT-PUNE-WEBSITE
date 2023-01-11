@@ -7,37 +7,41 @@ function CoreMembers() {
       <div className="our-team pt-2">Core Members</div>
       <div className="row">
         <div className="your-element col-12 col-md-6 text-center py-4">
-          <Tilt
-            {...{
-              tiltAngleYInitial: 10,
-              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
-            }}
-          >
-            <div className="member-image m1 mx-auto"></div>
-            <div className="hover_3d pt-3">
-              <div className="name">Gayatri Munde</div>
-              <div className="position">MLSA, President</div>
-              <div>
-                <ul className="list-inline">
-                  <li className="list-inline-item social-icons">
-                    <a href="https://www.instagram.com/g_ttishaa">
-                      <i className="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://www.linkedin.com/in/gayatri-munde-69397918b/">
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://github.com/GayatriMunde">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
+          
+            <Tilt
+              {...{
+                tiltAngleYInitial: 10,
+                transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+              }}
+            >
+              <div className="_card mx-auto">
+                <div className="position">MLSA, President</div>
+                <div className="member-image m1 mx-auto"></div>
+                <div className="hover_3d pt-3">
+                  <div className="name">Gayatri Munde</div>
+                  <div>
+                    <ul className="list-inline">
+                      <li className="list-inline-item social-icons">
+                        <a href="https://www.instagram.com/g_ttishaa">
+                          <img src="/Images/Icons/instagram.png" width="38px" height="38px"></img>
+                        </a>
+                      </li>
+                      <li className="list-inline-item social-icons">
+                        <a href="https://www.linkedin.com/in/gayatri-munde-69397918b/">
+                        <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                        </a>
+                      </li>
+                      <li className="list-inline-item social-icons">
+                        <a href="https://github.com/GayatriMunde">
+                        <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-          </Tilt>
+            </Tilt>
+          
         </div>
 
         <div className="your-element col-12 col-md-5 text-center py-4">
@@ -47,28 +51,30 @@ function CoreMembers() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m2 mx-auto"></div>
-            <div className="hover_3d pt-3">
+            <div className="_card mx-auto">
+                <div className="position">President</div>
+              <div className="member-image m2 mx-auto"></div>
+              <div className="hover_3d pt-3">
               <div className="name">Harsh Mehta</div>
-              <div className="position">President</div>
-              <div>
-                <ul className="list-inline">
-                  <li className="list-inline-item social-icons">
-                    <a href="https://www.instagram.com/harsh_mehtaaaa">
-                      <i className="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://www.linkedin.com/in/harsh-mehta-a74283198/">
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://github.com/1n40">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.instagram.com/harsh_mehtaaaa">
+                      <img src="/Images/Icons/instagram.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/harsh-mehta-a74283198/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/1n35">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </Tilt>
@@ -82,20 +88,21 @@ function CoreMembers() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
+            <div className="_card mx-auto">
+              <div className="position">Vice President</div>
             <div className="member-image m3 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Aditya Deshmukh</div>
-              <div className="position">Vice President</div>
               <div>
                 <ul className="list-inline">
                   <li className="list-inline-item social-icons">
                     <a href="https://www.instagram.com/adi.deshmukh_">
-                      <i className="fab fa-instagram"></i>
+                    <img src="/Images/Icons/instagram.png" width="38px" height="38px"></img>
                     </a>
                   </li>
                   <li className="list-inline-item social-icons">
                     <a href="https://www.linkedin.com/in/aditya-deshmukh-949b44198">
-                      <i className="fab fa-linkedin"></i>
+                    <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
                     </a>
                   </li>
                   {/* <li className="list-inline-item social-icons">
@@ -105,6 +112,7 @@ function CoreMembers() {
                     </li> */}
                 </ul>
               </div>
+            </div>
             </div>
           </Tilt>
         </div>

@@ -18,7 +18,7 @@ function Team2021() {
     <div className="background-blue">
       {/* <OurTeam /> */}
       {/* <div className="container"> */}
-      <div className="our-team pt-4">Our Team</div>
+      <div className="our-team pt-4">Our Awesome Team</div>
       <div className="b-border"></div>
       {/* ---------------------------------------------------------------------------------- */}
       <CoreMembers />
@@ -56,13 +56,11 @@ function Team2021() {
       <div className="svg-image">
         <img src={Wave} alt="wave" />
       </div>
+        <div className="background-wave">
+          <AppDev />
+        </div>
       <div className="svg-image-rotate">
         <img src={Wave} alt="wave" />
-        <div className="background-wave">
-          <div className="counter-rotate">
-            <AppDev />
-          </div>
-        </div>
       </div>
       {/* ---------------------------------------------------------------------------------- */}
       <WebDev />
