@@ -13,11 +13,11 @@ import { extendTheme, ChakraProvider } from '@chakra-ui/react';
 import Navbar from './components/Navbar/Navbar';
 // For Footer
 import Footer from './components/Footer/Footer';
-import Waves from './utils/waves/Waves';
+// import Waves from './utils/waves/Waves';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
-import FloatingButton from './components/FloatingButton/FloatingButton';
+// import FloatingButton from './components/FloatingButton/FloatingButton';
 import Loading from './components/Loading/Loading';
-import Projectss from './pages/projectss/Projectss';
+// import Projectss from './pages/projectss/Projectss';
 const Home = React.lazy(() => import('./pages/Home/Home'));
 const Team = React.lazy(() => import('./pages/Team/Team'));
 const Event = React.lazy(() => import('./pages/Event/Event'));

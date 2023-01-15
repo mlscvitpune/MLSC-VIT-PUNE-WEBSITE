@@ -25,7 +25,7 @@ const Blog = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       const data = await (await fetch(API_LINK)).json((res) => res.data);
-      // console.log(data.items);
+      console.log(data.items);
 
       data.items.map((blog) => {
         //* Regex used to get the Name and Medium Account of the Author from blog.content
