@@ -1,0 +1,364 @@
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.background-blue {
+  background-color: #172744;
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.432) 0.1%, #21355a, #21355a, #21355a, #21355a, #21355a); */
+}
+.background-wave {
+  background-color: #032036;
+}
+
+.our-team {
+  text-align: center;
+  font-weight: 900;
+  color: #84dfff;
+  font-size: 4rem;
+}
+
+.b-border {
+  width: 50px;
+  height: 4px;
+  background-color: #0071b0;
+  margin: 0 auto 0.5rem;
+}
+.member-image {
+  margin-top: 1rem;
+  position: relative;
+  width: 210px;
+  height: 210px;
+  border-radius: 20%;
+  background: #dddddd;
+  background-size: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .our-team {
+    font-size: 3rem;
+  }
+  .member-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+/* Core Members */
+.member-image.m1 {
+  background-image: url('./Images/Gayatri_Munde.jpg');
+}
+.member-image.m2 {
+  background-image: url('./Images/Harsh_Mehta.jpg');
+}
+.member-image.m3 {
+  background-image: url('./Images/Aditya_Deshmukh.jpg');
+}
+.member-image.m4 {
+  background-image: url('./Images/Omkar_Prabhune.png');
+}
+.member-image.m5 {
+  background-image: url('./Images/Manali_Teke.jpg');
+}
+
+/* Web Development Members */
+.member-image.m6 {
+  background-image: url('./Images/Web_Shashank_Pathmudi.png');
+}
+.member-image.m7 {
+  background-image: url('./Images/Web_Aryan_Shinde.png');
+}
+.member-image.m8 {
+  background-image: url('./Images/Agnibha_Sarkar.jpg');
+}
+.member-image.m9 {
+  background-image: url('./Images/Web_Aditya_Sood.png');
+}
+
+/* App Development Members */
+.member-image.m10 {
+  background-image: url('./Images/App_Shaunak_Mahajan.jpeg');
+}
+.member-image.m11 {
+  background-image: url('./Images/App_Shrushti_Bhattad.jpg');
+}
+.member-image.m12 {
+  background-image: url('./Images/App_Meru_Jain.jpg');
+}
+.member-image.m13 {
+  background-image: url('./Images/App_Neilkrishna_Kabara.jpg');
+}
+
+/* AI ML Members */
+.member-image.m14 {
+  background-image: url('./Images/AI-ML_Devanshu_Dalal.png');
+}
+.member-image.m15 {
+  background-image: url('./Images/AI-ML_Manomay_Jamble.png');
+}
+.member-image.m16 {
+  background-image: url('./Images/AI-ML_Shreyash_Deshmukh.png');
+}
+.member-image.m17 {
+  background-image: url('./Images/AI-ML_Varad_Kajarekar.png');
+}
+
+/* Cyber Security Members */
+.member-image.m18 {
+  background-image: url('./Images/Cyber_Security_Junaid_Mujawar.jpg');
+}
+.member-image.m19 {
+  background-image: url('./Images/Cyber_Security_Harsh_Satdeve.jpg');
+}
+
+/* IOT Members */
+.member-image.m20 {
+  background-image: url('./Images/IOT_Atharwa_Kharkar.jpg');
+}
+.member-image.m21 {
+  background-image: url('./Images/IOT_Abu_Ansari.png');
+}
+.member-image.m22 {
+  background-image: url('./Images/IOT_Atharva_Dusane.jpg');
+}
+
+/* NeoTech Members */
+.member-image.m23 {
+  background-image: url('./Images/NeoTech_Spurthi_Bhat.jpeg');
+}
+.member-image.m24 {
+  background-image: url('./Images/NeoTech_Aayushi_Patel.jpeg');
+}
+.member-image.m25 {
+  background-image: url('./Images/NeoTech_Avinash_Dhakne.jpg');
+}
+.member-image.m26 {
+  background-image: url('./Images/NeoTech_Disha_Khater.jpg');
+}
+.member-image.m27 {
+  background-image: url('./Images/NeoTech_Rutvik_Manchekar.jpeg');
+}
+
+/* Multimedia Members */
+.member-image.m28 {
+  background-image: url('./Images/Web_Aditya_Sood.png');
+}
+.member-image.m29 {
+  background-image: url('./Images/Multimedia_Vedant_Gokhale.png');
+}
+.member-image.m30 {
+  background-image: url('./Images/Multimedia_Kaushal_Gore.png');
+}
+
+/* Content Members */
+.member-image.m31 {
+  background-image: url('./Images/Content_Isha_Deshpande.png');
+}
+.member-image.m32 {
+  background-image: url('./Images/Content_ARYA_MEHTA.png');
+}
+
+/* Marketing Members */
+.member-image.m33 {
+  background-image: url('./Images/Marketing_Omkar_Nishad.png');
+}
+.member-image.m34 {
+  background-image: url('./Images/Marketing_Aashay_More.png');
+}
+.member-image.m35 {
+  background-image: url('./Images/Marketing_Suyog_Savalkar.png');
+}
+
+/* Management Members */
+.member-image.m36 {
+  background-image: url('./Images/Management_Kaivalya_Aole.jpeg');
+}
+.member-image.m37 {
+  background-image: url('./Images/Management_Sarthak_Bhake.jpeg');
+}
+.member-image.m38 {
+  background-image: url('./Images/Management_Kaushal_Ratnapagol.jpg');
+}
+.member-image.m39 {
+  background-image: url('./Images/Management_Antima_Modak.jpg');
+}
+.member-image.m40 {
+  background-image: url('./Images/Management_Shivam_Ghadge.jpg');
+}
+.member-image.m41 {
+  background-image: url('./Images/Management_Vaishnavi_Pingat.jpg');
+}
+.member-image.m42 {
+  background-image: url('./Images/Management_Kaivalya_Aole.jpeg');
+}
+.member-image.m43 {
+  background-image: url('./Images/Management_Siddharth_Nahar.jpg');
+}
+/* .member-image.m44 {
+  background-image: url('/src/pages/Team/Images/Management_Vaishnavi_Pingat.png');
+}
+.member-image.m45 {
+  background-image: url('/src/pages/Team/Images/Content_ARYA_MEHTA.png');
+}
+.member-image.m46 {
+  background-image: url('/src/pages/Team/Images/Content_ARYA_MEHTA.png');
+} */
+.name {
+  font-weight: 800;
+  color: #84dfff;
+  font-size: large;
+}
+.position {
+  margin-top: 2rem;
+  
+  font-weight: 600;
+  color: #ffffff;
+  font-size:large;
+}
+.social-icons {
+  transition: 0.3s all;
+  font-size: 20px;
+  color: #f5f5f5;
+}
+.social-icons > a:hover {
+  color: #00e1ff;
+}
+.your-element {
+  transform-style: preserve-3d;
+}
+.hover_3d {
+  transform: translateZ(80px);
+}
+.svg-image {
+  display: flex;
+  justify-content: center;
+}
+.svg-image-rotate {
+  justify-content: center;
+  transform: rotateY(180deg);
+  transform: rotateX(180deg);
+}
+.counter-rotate {
+  transform: rotateY(0deg);
+  transform: rotateX(180deg);
+}
+
+.button {
+  width: 120px;
+  height: 52px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: 'sans-serif', Poppins;
+  letter-spacing: 4px;
+  background: #02b6fd;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+  transition: 500ms;
+}
+
+.button:after {
+  content: '';
+  position: absolute;
+  transform: translateX(-55px) translateY(-40px);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: 0px 0px 50px transparent;
+  transition: 500ms;
+}
+
+.button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.button:hover:after {
+  background: white;
+  box-shadow: 0px 0px 20px #ffc421, 0px 0px 30px #ffc421,
+    inset 0px 0px 10px #ffc421;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  25% {
+    transform: translateX(-25px) translateY(-35px);
+    width: 15px;
+    height: 15px;
+  }
+  50% {
+    transform: translateX(-55px) translateY(-30px);
+    width: 5px;
+    height: 5px;
+  }
+  75% {
+    transform: translateX(-85px) translateY(-35px);
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.button:focus {
+  outline: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  overflow: hidden;
+}
+
+.wave {
+  width: 1000px;
+  height: 1025px;
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -500px;
+  border-radius: 35%;
+  background: rgba(255, 255, 255, 0.75);
+  animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+._card{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  z-index: 1;
+  height: 390px;
+  width: 295px;
+  background-color: #25168178;
+  border: solid;
+  border-color: #3856C2;
+  border-width: 3px;
+  border-radius: 44px;
+  object-fit: cover;
+}

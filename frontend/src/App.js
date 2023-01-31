@@ -19,7 +19,8 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Loading from './components/Loading/Loading';
 // import Projectss from './pages/projectss/Projectss';
 const Home = React.lazy(() => import('./pages/Home/Home'));
-const Team = React.lazy(() => import('./pages/Team/Team'));
+const Team21 = React.lazy(() => import('./pages/Team/Team21'));
+const Team22 = React.lazy(() => import('./pages/Team/Team22'));
 const Event = React.lazy(() => import('./pages/Event/Event'));
 const Blog = React.lazy(() => import('./pages/Blog/Blog'));
 const Projects = React.lazy(() => import('./pages/Projects/Projects'));
@@ -44,7 +45,8 @@ function App() {
 
             <Switch>
               <Route exact path="/" component={Home}></Route>
-              <Route exact path="/team" component={Team}></Route>
+                <Route exact path="/team21" component={Team21}></Route>
+              <Route exact path="/team22" component={Team22}></Route>
               <Route exact path="/event" component={Event}></Route>
               <Route exact path="/blog" component={Blog}></Route>
               <Route exact path="/projects" component={Projects}></Route>

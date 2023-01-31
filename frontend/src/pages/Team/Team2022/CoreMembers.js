@@ -1,0 +1,156 @@
+import React from 'react';
+import Tilt from 'react-parallax-tilt';
+
+function CoreMembers() {
+  return (
+    <div>
+      <div className="our-team pt-2">Core Members</div>
+      <div className="row">
+        <div className="your-element col-12 col-md-6 text-center py-4">
+          
+            <Tilt
+              {...{
+                tiltAngleYInitial: 10,
+                transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+              }}
+            >
+              <div className="_card mx-auto">
+                <div className="position">President</div>
+                <div className="member-image m1 mx-auto"></div>
+                <div className="hover_3d pt-3">
+                  <div className="name">Atharva Dusane</div>
+                  <div>
+                    <ul className="list-inline">
+                      <li className="list-inline-item social-icons">
+                        <a href="https://twitter.com/atharva_d_13">
+                          <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                        </a>
+                      </li>
+                      <li className="list-inline-item social-icons">
+                        <a href="https://www.linkedin.com/in/atharva-dusane-ab6226213/">
+                        <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                        </a>
+                      </li>
+                      <li className="list-inline-item social-icons">
+                        <a href="https://github.com/Atharva-D">
+                        <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </Tilt>
+          
+        </div>
+
+        <div className="your-element col-12 col-md-5 text-center py-4">
+          <Tilt
+            {...{
+              tiltAngleYInitial: 10,
+              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+            }}
+          >
+            <div className="_card mx-auto">
+                <div className="position">Vice President</div>
+              <div className="member-image m2 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Devanshu Dalal</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/devanshukd04">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://linkedin.com/in/devanshu-dalal-3042a1219">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/1n35">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </Tilt>
+        </div>
+      </div>
+      
+      <div className="row">
+        <div className="your-element col-12 col-md-6 text-center py-4">
+          <Tilt
+            {...{
+              tiltAngleYInitial: 10,
+              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+            }}
+          >
+            <div className="member-image m3 mx-auto"></div>
+            <div className="hover_3d pt-3">
+               <div className="name">AOLE KAIVALYA</div>
+              <div className="position">Corporate Lead</div>
+              <div>
+                <ul className="list-inline">
+                  <li className="list-inline-item social-icons">
+                    <a href="https://twitter.com/AoleKaivalya">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.linkedin.com/in/kaivalya-aole-b44426202">
+                      <i className="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://github.com/KaivalyaAole">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Tilt>
+        </div>
+        <div className="your-element col-12 col-md-5 text-center py-4">
+          <Tilt
+            {...{
+              tiltAngleYInitial: 10,
+              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+            }}
+          >
+            <div className="member-image m4 mx-auto"></div>
+            <div className="hover_3d pt-3">
+              <div className="name">Vedant_Gokhale</div>
+              <div className="position"> Technical Lead</div>
+              <div>
+                <ul className="list-inline">
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.twitter.com/">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.linkedin.com/in/Vedant-Gokhale/">
+                      <i className="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://github.com/gokhalevedant06">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Tilt>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default CoreMembers;
