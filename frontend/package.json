@@ -5,6 +5,8 @@
   "dependencies": {
     "@chakra-ui/icons": "^1.0.16",
     "@chakra-ui/react": "^1.6.10",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -14,6 +16,7 @@
     "lorem-ipsum": "^2.0.4",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",
+    "react-bootstrap-validation": "^0.1.11",
     "react-countup": "^6.1.1",
     "react-dom": "^17.0.2",
     "react-intersection-observer": "^8.33.1",

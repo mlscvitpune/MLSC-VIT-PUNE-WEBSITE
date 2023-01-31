@@ -21,7 +21,7 @@ const Links = [
   },
   {
     name: 'Team',
-    path: '/team',
+    path: '/team22',
   },
   {
     name: 'Event',
