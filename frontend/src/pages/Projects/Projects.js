@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from 'react';
-
 import EventBlogProjectMainSection from '../../components/EventBlogProjectMainSection/EventBlogProjectMainSection';
 import { Box, Flex, Text } from '@chakra-ui/react';
 import Projectss from '../projectss/Projectss';
 
+
 // For Data
 import Data from './Data';
+import TempData from './TempData';
 // Importing Sections
 import ProjectSectionLeft from '../../components/ProjectSections/ProjectSectionLeft';
 import ProjectSectionRight from '../../components/ProjectSections/ProjectSectionRight';
+import Pleft from '../../components/ProjectSections/Pleft';
+import Pright from '../../components/ProjectSections/Pright';
 
 import axiosInstance from '../../utils/axiosInstance';
 import Waves from '../../utils/waves/Waves';
@@ -58,15 +61,23 @@ const Projects = () => {
               );
             })
           : ({
-              /* <span>LEARN</span>
-            <span>BUILD</span>
-            <span>EMPOWER</span> */
+            //   /* <span>LEARN</span>
+            // <span>BUILD</span>
+            // <span>EMPOWER</span> */
             },
             (<></>))}
       </Box>
       <Typing />
       <Waves />
-      <Projectss />
+      {/* static project cards whose data is being mapped from Tempdata. */}
+        <div className="projects d-flex flex-column justify-content-center align-items-center">
+        {
+          TempData.map((project) => {
+            return project.index % 2 == 0 ? <Pright key={project.index} projectTitle={project.projectTitle} projectDesc={project.projectDesc} repoLink={project.repoLink} img={project.img} /> : <Pleft key={project.index} projectTitle={project.projectTitle} projectDesc={project.projectDesc} repoLink={project.repoLink} img={project.img} />;
+          })
+        }
+      </div>
+      {/* <Projectss /> */}
     </>
   );
 };

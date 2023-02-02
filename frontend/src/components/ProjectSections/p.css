@@ -1,0 +1,12 @@
+.pImgBox {
+    overflow: hidden;
+}
+
+.pImgBox img {
+    transition: transform 1s;
+    transform: scale(1.2);
+}
+
+.pImgBox:hover img {
+    transform: scale(1.4);
+}
