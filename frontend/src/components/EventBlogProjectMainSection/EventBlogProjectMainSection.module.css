@@ -17,8 +17,7 @@
 }
 
 .wave_1 {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
-    repeat-x;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
   position: absolute;
   top: -160px;
   width: 6400px;
@@ -27,10 +26,11 @@
   opacity: 1;
   animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   transform: translate3d(0, 0, 0);
+  overflow: hidden;
 }
+
 .wave_2 {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
-    repeat-x;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
   position: absolute;
   top: -160px;
   width: 6400px;
@@ -38,10 +38,11 @@
   color: #0875cb;
   animation: wave 11s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   transform: translate3d(0, 0, 0);
+  overflow: hidden;
 }
+
 .wave_3 {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg)
-    repeat-x;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
   position: absolute;
   top: -160px;
   width: 6400px;
@@ -49,12 +50,14 @@
   color: #0875cb;
   animation: wave 17s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   transform: translate3d(0, 0, 0);
+  overflow: hidden;
 }
 
 @keyframes wave {
   0% {
     margin-left: 0;
   }
+
   100% {
     margin-left: -1600px;
   }
