@@ -15,6 +15,7 @@ import {
 import EventBlogProjectMainSection from '../../components/EventBlogProjectMainSection/EventBlogProjectMainSection';
 import BlogTags from './BlogTags';
 import BlogAuthor from './BlogAuthor';
+import blogData from './data';
 
 const Blog = () => {
   const API_LINK =
@@ -25,20 +26,21 @@ const Blog = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       const data = await (await fetch(API_LINK)).json((res) => res.data);
-      console.log(data.items);
+      // console.log(data.items);
 
       data.items.map((blog) => {
+        //uncomment when fetching blogs from backend
         //* Regex used to get the Name and Medium Account of the Author from blog.content
-        const author = blog.content.match(
-          /href="https:\/\/medium.com\/(.*)<\/em>/
-        );
-        // console.log(author[0]);
-        const authorLink = author[0].match(/href="(.*)"/);
-        // console.log(authorLink[1]);
-        const authorName = author[0].match(/<em>(.*)<\/em>/);
-        // console.log(authorName[1]);
-        blog['authorName'] = authorName[1];
-        blog['authorLink'] = authorLink[1];
+        // const author = blog.content.match(
+        //   /href="https:\/\/medium.com\/(.*)<\/em>/
+        // );
+        // // console.log(author[0]);
+        // const authorLink = author[0].match(/href="(.*)"/);
+        // // console.log(authorLink[1]);
+        // const authorName = author[0].match(/<em>(.*)<\/em>/);
+        // // console.log(authorName[1]);
+        // blog['authorName'] = authorName[1];
+        // blog['authorLink'] = authorLink[1];
         return 1;
       });
 
@@ -59,7 +61,7 @@ const Blog = () => {
       ></EventBlogProjectMainSection>
 
       <Container maxW={'7xl'} p={{ base: '1rem', md: '3rem' }}>
-        {blogs.length === 0 ? (
+        {blogData.length === 0 ? (
           <Box
             borderTop="1px solid #000"
             borderBottom="1px solid #000"
@@ -70,7 +72,7 @@ const Blog = () => {
             </Center>
           </Box>
         ) : (
-          blogs.map((blog) => {
+          blogData.map((blog) => {
             return (
               <React.Fragment key={blog.pubDate}>
                 <Box
@@ -141,13 +143,13 @@ const Blog = () => {
                       </Link>
                     </Heading>
                     <Text as="p" marginTop="2" fontSize="lg">
-                      {/* {blog.description} */}
+                      {blog.description}
                     </Text>
                     <BlogAuthor
                       name={blog.authorName}
                       date={blog.pubDate}
                       authorLink={blog.authorLink}
-                      // authorImage={blog.authorImage}
+                      authorDomain={blog.Domain}
                     />
                     <Button
                       mt={'3%'}
@@ -167,7 +169,26 @@ const Blog = () => {
             );
           })
         )}
+        <Box w='100%' display='flex' justifyContent='center' alignItems='center'>
+          <Button
+            mt={'3%'}
+            p='1rem'
+            alignItems="center"
+            textAlign={{ base: 'center', md: 'start' }}
+            onClick={() => {
+              window.open(`${'https://medium.com/@mlscvitpune'}`, '_blank');
+            }}
+            colorScheme={'teal'}
+            width={['35%','35%','20%']}
+            marginX={{ base: 'auto', md: 0 }}
+          >
+            Explore more
+            
+        </Button>
+        </Box>
       </Container>
+
+      
     </main>
   );
 };
