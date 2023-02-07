@@ -8,7 +8,7 @@ const Data = [
     eventImg: '/Images/Events/Events_GitVerse.jpeg',
     footfall: 150,
     peopleOrganising: 10,
-    dateTime: '3rd October 2022, 5 PM',
+    dateTime: '3rd October 2022, 5 PM ',
     eventSpan: 1,
   },
   {
@@ -20,7 +20,7 @@ const Data = [
     eventImg: '/Images/Events/Events_React.jpeg',
     footfall: 160,
     peopleOrganising: 13,
-    dateTime: '29th July 2022, 9 AM',
+    dateTime: '29th July 2022, 9 AM ',
     eventSpan: 3,
   },
   {
