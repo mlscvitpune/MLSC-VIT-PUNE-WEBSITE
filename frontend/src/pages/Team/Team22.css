@@ -162,7 +162,7 @@ body {
 
 /* Multimedia Members */
 .member-image.m29 {
-  background-image: url('./Images/Kaushal_Gore Multimedia Lead.png');
+  background-image: url('./Images/Kaushal_Gore\ Multimedia\ Lead.jpeg');
 }
 .member-image.m30 {
   background-image: url('./Images/ARNAV MUKKAWAR Multimedia.jpeg');
@@ -224,6 +224,27 @@ body {
 }
 .member-image.m43 {
   background-image: url('./Images/THIPSAY YASH Blockchain.jpg');
+}
+
+
+.member-image.m44 {
+  background-image: url('./Images/GUNDAWAR\ AYUSH_Management.jpg');
+}
+
+.member-image.m45 {
+  background-image: url('./Images/DUMBRE\ AMOGH_Management.jpg');
+}
+
+.member-image.m46 {
+  background-image: url('./Images/Tiwari\ Aarya_Management.jpg');
+}
+
+.member-image.m47 {
+  background-image: url('./Images/Aryan_Shinde_core.jpg');
+}
+
+.member-image.m48 {
+  background-image: url('./Images/Dighole\ Rushikesh_Multimedia.jpg');
 }
 
 /*

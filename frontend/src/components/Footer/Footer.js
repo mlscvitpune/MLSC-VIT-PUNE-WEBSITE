@@ -173,26 +173,9 @@ const Footer = () => {
             >
               Contact Us
             </Box>
+            
             <Box>
-              <Box
-                style={{
-                  height: '30px',
-                  color: '#ffffff',
-                }}
-                fontSize={{ base: '1rem', md: '1.5rem' }}
-                mx={2}
-              >
-                <i className="fas fa-phone"></i>
-                <Box
-                  style={{
-                    display: 'inline-block',
-                    marginLeft: '0.5rem',
-                    textAlign: 'center',
-                  }}
-                >
-                  +91 80876 26740
-                </Box>
-              </Box>
+            
               <Box
                 style={{
                   height: '30px',
@@ -210,7 +193,7 @@ const Footer = () => {
                   }}
                   mx="auto"
                 >
-                  mlscvitpune@vit.edu
+                  mlsc@vit.edu
                 </Box>
               </Box>
             </Box>
@@ -224,7 +207,7 @@ const Footer = () => {
         >
           {/* Made with{' '}
           <i className="fas fa-heart" style={{ color: '#ff0000' }}></i> by MLSC */}
-          Made by Shashank, Aditya, Agnibha, Aryan and Vedant
+          
         </Box>
       </Box>
     </footer>
