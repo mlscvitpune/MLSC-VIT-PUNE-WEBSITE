@@ -43,41 +43,7 @@ function IOT() {
         </div>
       </div>
       <div className="row">
-        <div className="your-element col-12 col-md-4 text-center py-4">
-          <Tilt
-            {...{
-              tiltAngleYInitial: 10,
-              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
-            }}
-          >
-            <div className="member-image m23 mx-auto"></div>
-            <div className="hover_3d pt-3">
-              <div className="name">Om Dhumal</div>
-              <div className="position">Co-ordinator</div>
-              <div>
-                <ul className="list-inline">
-                  <li className="list-inline-item social-icons">
-                    <a href="https://twitter.com/_omdhumal">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://github.com/a-u-m">
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://github.com/a-u-m">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </Tilt>
-        </div>
-
-        <div className="your-element col-12 col-md-4 text-center py-4">
+        <div className="your-element col-12 col-md-6 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,
@@ -111,7 +77,7 @@ function IOT() {
           </Tilt>
         </div>
 
-        <div className="your-element col-12 col-md-4 text-center py-4">
+        <div className="your-element col-12 col-md-6 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,

@@ -69,7 +69,7 @@ function CoreMembers() {
                       </a>
                     </li>
                     <li className="list-inline-item social-icons">
-                      <a href="https://github.com/1n35">
+                      <a href="https://github.com/devanshukd04">
                       <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
                       </a>
                     </li>
@@ -81,8 +81,11 @@ function CoreMembers() {
         </div>
       </div>
       
+      
+       <br/>
+       <br/>
       <div className="row">
-        <div className="your-element col-12 col-md-6 text-center py-4">
+        <div className="your-element col-12 col-md-4 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,
@@ -91,7 +94,7 @@ function CoreMembers() {
           >
             <div className="member-image m3 mx-auto"></div>
             <div className="hover_3d pt-3">
-               <div className="name">AOLE KAIVALYA</div>
+               <div className="name">Kaivalya Aole</div>
               <div className="position">Corporate Lead</div>
               <div>
                 <ul className="list-inline">
@@ -115,7 +118,8 @@ function CoreMembers() {
             </div>
           </Tilt>
         </div>
-        <div className="your-element col-12 col-md-5 text-center py-4">
+
+        <div className="your-element col-12 col-md-4 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,
@@ -124,12 +128,12 @@ function CoreMembers() {
           >
             <div className="member-image m4 mx-auto"></div>
             <div className="hover_3d pt-3">
-              <div className="name">Vedant_Gokhale</div>
+              <div className="name">Vedant Gokhale</div>
               <div className="position"> Technical Lead</div>
               <div>
                 <ul className="list-inline">
                   <li className="list-inline-item social-icons">
-                    <a href="https://www.twitter.com/">
+                    <a href="https://twitter.com/gokhalevedant06">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
@@ -148,6 +152,48 @@ function CoreMembers() {
             </div>
           </Tilt>
         </div>
+
+
+
+        <div className="your-element col-12 col-md-4 text-center py-4">
+          <Tilt
+            {...{
+              tiltAngleYInitial: 10,
+              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+            }}
+          >
+            <div className="member-image m47 mx-auto"></div>
+            <div className="hover_3d pt-3">
+              <div className="name">Aryan Shinde</div>
+              <div className="position">Project Manager</div>
+              <div>
+                <ul className="list-inline">
+                  <li className="list-inline-item social-icons">
+                    <a href="https://twitter.com/aryan_aag">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.linkedin.com/in/aryan-shinde-14ab58201/">
+                      <i className="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.github.com/AryanShinde">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Tilt>
+        </div>
+
+        
+
+
+
+
       </div>
     </div>
   );
