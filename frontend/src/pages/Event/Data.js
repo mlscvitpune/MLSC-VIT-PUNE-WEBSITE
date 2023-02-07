@@ -1,5 +1,29 @@
 const Data = [
   {
+    eventTitle: 'THE GIT VERSE',
+    eventDesc:
+      'Ever wanted to explore more about Opensource? If yes, Then you\'ve come to the right place🥳',
+    modalBody:
+      'Ever wanted to explore more about Opensource? If yes, Then you\'ve come to the right place🥳',
+    eventImg: '/Images/Events/Events_GitVerse.jpeg',
+    footfall: 150,
+    peopleOrganising: 10,
+    dateTime: '3rd October 2022, 5 PM ',
+    eventSpan: 1,
+  },
+  {
+    eventTitle: 'React bootcamp',
+    eventDesc:
+      'MLSC is pleased to announce its new bootcamp on Reactjs , one of the most popular front-end web development libraries.',
+    modalBody:
+      'MLSC is pleased to announce its new bootcamp on Reactjs , one of the most popular front-end web development libraries.',
+    eventImg: '/Images/Events/Events_React.jpeg',
+    footfall: 160,
+    peopleOrganising: 13,
+    dateTime: '29th July 2022, 9 AM ',
+    eventSpan: 3,
+  },
+  {
     eventTitle: 'Workshop on Microsoft Azure',
     eventDesc:
       'The main objective of the event was to spread knowledge about Cyber Security. The key outcomes of this events were increased enthusiasm about Cyber Security and awareness about its need in the digital world.',
