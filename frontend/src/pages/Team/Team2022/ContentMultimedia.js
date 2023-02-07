@@ -148,7 +148,7 @@ function ContentMultimedia() {
 
 
  <div className="row">
-        <div className="your-element col-12 col-md-4 text-center py-4">
+        <div className="your-element col-12 col-md-3 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,
@@ -182,7 +182,47 @@ function ContentMultimedia() {
           </Tilt>
         </div>
 
-        <div className="your-element col-12 col-md-4 text-center py-4">
+
+  <div className="your-element col-12 col-md-3 text-center py-4">
+          <Tilt
+            {...{
+              tiltAngleYInitial: 10,
+              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+            }}
+          >
+            <div className="member-image m48 mx-auto"></div>
+            <div className="hover_3d pt-3">
+              <div className="name">Rushikesh Dighole</div>
+              <div className="position">Multimedia</div>
+              <div>
+                <ul className="list-inline">
+                  <li className="list-inline-item social-icons">
+                    <a href="https://twitter.com/DigholeRushi">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.linkedin.com/in/rushikesh-dighole-44714720b">
+                      <i className="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://github.com/DigholeRushi">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Tilt>
+        </div>
+
+
+
+
+
+
+        <div className="your-element col-12 col-md-3 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,
@@ -216,7 +256,7 @@ function ContentMultimedia() {
           </Tilt>
         </div>
 
-        <div className="your-element col-12 col-md-4 text-center py-4">
+        <div className="your-element col-12 col-md-3 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,

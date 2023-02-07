@@ -17,8 +17,8 @@ function ManagementMarketing() {
           >
             <div className="member-image m36 mx-auto"></div>
             <div className="hover_3d pt-3">
-              <div className="name">SARTHAK BHAKE</div>
-              <div className="position">Event Managing Head</div>
+              <div className="name">Sarthak Bhake</div>
+              <div className="position">Management Head</div>
               <div>
                 <ul className="list-inline">
                   <li className="list-inline-item social-icons">
@@ -42,8 +42,11 @@ function ManagementMarketing() {
           </Tilt>
         </div>
       </div>
-      <div className="row">
-        <div className="your-element col-12 col-md-3 text-center py-4">
+
+
+
+    <div className="row">
+        <div className="your-element col-12 col-md-13 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,
@@ -53,8 +56,8 @@ function ManagementMarketing() {
             <div className="member-image m37 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Rutvik Manchekar</div>
-              <div className="position">Co-ordinator</div>
-              <div>
+              <div className="position">Event Management Head</div>
+                       <div>
                 <ul className="list-inline">
                   <li className="list-inline-item social-icons">
                     <a href="https://mobile.twitter.com/rutvik0709">
@@ -76,9 +79,132 @@ function ManagementMarketing() {
             </div>
           </Tilt>
         </div>
+      </div>
 
-   
-        <div className="your-element col-12 col-md-3 text-center py-4">
+
+
+
+
+
+
+
+
+    <div className="row">  
+        <div className="your-element col-12 col-md-4 text-center py-4">
+          <Tilt
+            {...{
+              tiltAngleYInitial: 10,
+              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+            }}
+          >
+            <div className="member-image m44 mx-auto"></div>
+            <div className="hover_3d pt-3">
+              <div className="name">Ayush Gundawar </div>
+              <div className="position">Co-ordinator</div>
+              <div>
+                <ul className="list-inline">
+                  <li className="list-inline-item social-icons">
+                    <a href="https://mobile.twitter.com/">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.linkedin.com/in/ayush-gundawar-997b28223">
+                      <i className="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                 <li className="list-inline-item social-icons">
+                    <a href="https://github.com/aayushgundawar">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </li> 
+                </ul>
+              </div>
+            </div>
+          </Tilt>
+        </div>
+            <div className="your-element col-12 col-md-4 text-center py-4">
+          <Tilt
+            {...{
+              tiltAngleYInitial: 10,
+              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+            }}
+          >
+            <div className="member-image m45 mx-auto"></div>
+            <div className="hover_3d pt-3">
+              <div className="name">AMOGH Dumbre</div>
+              <div className="position">Co-ordinator</div>
+              <div>
+                <ul className="list-inline">
+                  <li className="list-inline-item social-icons">
+                    <a href="https://mobile.twitter.com/DumbreAmogh">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.linkedin.com/in/amogh-dumbre-57105a20b">
+                      <i className="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+              <li className="list-inline-item social-icons">
+                    <a href="https://github.com/amogh3005">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Tilt>
+        </div>
+             <div className="your-element col-12 col-md-4 text-center py-4">
+          <Tilt
+            {...{
+              tiltAngleYInitial: 10,
+              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+            }}
+          >
+            <div className="member-image m46 mx-auto"></div>
+            <div className="hover_3d pt-3">
+              <div className="name">Aarya Tiwari</div>
+              <div className="position">Co-ordinator</div>
+              <div>
+                <ul className="list-inline">
+                  <li className="list-inline-item social-icons">
+                    <a href="https://twitter.com/thesoulrr">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.linkedin.com/in/aarya-tiwari/">
+                      <i className="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://github.com/thesoulrr">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Tilt>
+        </div>
+
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+      <div className="row">  
+        <div className="your-element col-12 col-md-4 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,
@@ -111,7 +237,7 @@ function ManagementMarketing() {
             </div>
           </Tilt>
         </div>
-            <div className="your-element col-12 col-md-3 text-center py-4">
+            <div className="your-element col-12 col-md-4 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,
@@ -144,7 +270,7 @@ function ManagementMarketing() {
             </div>
           </Tilt>
         </div>
-             <div className="your-element col-12 col-md-3 text-center py-4">
+             <div className="your-element col-12 col-md-4 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,

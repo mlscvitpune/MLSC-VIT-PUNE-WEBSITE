@@ -23,7 +23,7 @@ function NeoTech() {
               <div>
                 <ul className="list-inline">
                   <li className="list-inline-item social-icons">
-                    <a href="http://www.twitter.com/">
+                    <a href="https://twitter.com/AvinashDhakne2">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
@@ -89,7 +89,7 @@ function NeoTech() {
           >
             <div className="member-image m28 mx-auto"></div>
             <div className="hover_3d pt-3">
-              <div className="name">Gharpure Adwait</div>
+              <div className="name">Adwait Gharpure</div>
               <div className="position">Co-ordinator</div>
               <div>
                 <ul className="list-inline">
