@@ -362,3 +362,27 @@ body {
   border-radius: 44px;
   object-fit: cover;
 }
+
+.drop-down{
+  margin-right: 0;
+  margin-left: 75%;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  height: fit-content;
+  width: 20%;
+  min-width: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+  .drop-down {
+    padding-top: 3%;
+    margin-right: 0;
+    margin-left: 80%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    height: fit-content;
+    min-width: fit-content;
+  }
+}
