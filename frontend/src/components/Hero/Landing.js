@@ -48,7 +48,7 @@ const Landing = () => {
             </Fade>
             <Zoom>
               <Text fontSize={{ base: '1.8rem', md: '3rem' }}>
-                Learn-Build-Inspire
+                Learn-Build-Empower
               </Text>
             </Zoom>
           </Flex>
