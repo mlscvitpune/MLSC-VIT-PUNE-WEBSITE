@@ -34,7 +34,7 @@ const Footer = () => {
               height={{ base: '200px' }}
               margin="auto"
             />
-            Microsoft Student Learn Club
+            Microsoft Learn Student Club
           </Box>
           <Spacer></Spacer>
           <Flex direction="column" alignItems="center">

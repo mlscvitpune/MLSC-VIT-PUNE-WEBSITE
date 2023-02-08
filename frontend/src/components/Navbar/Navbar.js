@@ -76,7 +76,7 @@ const Navbar = () => {
                   alt=""
                   height={{ base: '35px', sm: '50px' }}
                 />
-                Microsoft Student Learn Club
+                Microsoft Learn Student Club
               </Flex>
             </Box>
             <Spacer></Spacer>
