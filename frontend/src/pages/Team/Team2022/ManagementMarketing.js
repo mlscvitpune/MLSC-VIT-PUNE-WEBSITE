@@ -132,7 +132,7 @@ function ManagementMarketing() {
           >
             <div className="member-image m45 mx-auto"></div>
             <div className="hover_3d pt-3">
-              <div className="name">AMOGH Dumbre</div>
+              <div className="name">Amogh Dumbre</div>
               <div className="position">Co-ordinator</div>
               <div>
                 <ul className="list-inline">

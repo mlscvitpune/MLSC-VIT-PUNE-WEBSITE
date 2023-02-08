@@ -59,7 +59,7 @@ function CoreMembers() {
                 <div>
                   <ul className="list-inline">
                     <li className="list-inline-item social-icons">
-                      <a href="https://github.com/devanshukd04">
+                      <a href="https://twitter.com/DevanshuDalal1">
                       <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
                       </a>
                     </li>
@@ -80,7 +80,49 @@ function CoreMembers() {
           </Tilt>
         </div>
       </div>
-      
+    
+ <br/>
+  <br/>
+    <div className="row">
+        <div className="your-element col-12 col-md-13 text-center py-4">
+          <Tilt
+            {...{
+              tiltAngleYInitial: 10,
+              transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
+            }}
+          >
+            <div className="member-image m36 mx-auto"></div>
+            <div className="hover_3d pt-3">
+              <div className="name">Sarthak Bhake</div>
+              <div className="position">Management Head</div>
+              <div>
+                <ul className="list-inline">
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.twitter.com/">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://www.linkedin.com/in/sarthak-bhake/">
+                      <i className="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item social-icons">
+                    <a href="https://github.com/BhakeSart">
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Tilt>
+        </div>
+      </div>
+
+
+
+
+
       
        <br/>
        <br/>
