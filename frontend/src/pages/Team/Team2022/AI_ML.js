@@ -62,7 +62,7 @@ function AI_ML() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m16 mx-auto"></div>
+            {/* <div className="member-image m16 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Manomay Jamble</div>
               <div className="position"> AI/ML Lead</div>
@@ -85,6 +85,33 @@ function AI_ML() {
                   </li> 
                 </ul>
               </div>
+            </div> */}
+
+              <div className="_card mx-auto">
+                <div className="position">AI/ML Lead</div>
+              <div className="member-image m16 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Manomay Jamble</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/Manomay_J">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/manomayjamble/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/Manomay15">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
             
           </Tilt>
@@ -101,7 +128,7 @@ function AI_ML() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m17 mx-auto"></div>
+            {/* <div className="member-image m17 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Shreyash Deshmukh </div>
               <div className="position">Co-ordinator</div>
@@ -124,6 +151,32 @@ function AI_ML() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m17 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Shreyash Deshmukh</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/Shreyash1302">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/shreyash-deshmukh-5a7279214">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/Deshmukh-Shreyash">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -135,7 +188,7 @@ function AI_ML() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m18 mx-auto"></div>
+            {/* <div className="member-image m18 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Amaan Khatib</div>
               <div className="position">Co-ordinator</div>
@@ -158,6 +211,32 @@ function AI_ML() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m18 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Amaan Khatib</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/Amaan_Khatib">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/amaan-khatib-2mar2002/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/AmaanKhatib232">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -171,7 +250,7 @@ function AI_ML() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m19 mx-auto"></div>
+            {/* <div className="member-image m19 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Aniket More</div>
               <div className="position">Co-ordinator</div>
@@ -194,6 +273,32 @@ function AI_ML() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m19 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Aniket More</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/An1ket_More">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/aniket-more-5a928822a/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/Aniket6207">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -205,7 +310,7 @@ function AI_ML() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m20 mx-auto"></div>
+            {/* <div className="member-image m20 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">SOHAM RATNAPARKHI</div>
               <div className="position">Co-ordinator</div>
@@ -228,6 +333,32 @@ function AI_ML() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m20 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">SOHAM RATNAPARKHI</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/SohamR_7113">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/soham-ratnaparkhi-3a3775ab/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/SohamRatnaparkhi">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -239,7 +370,7 @@ function AI_ML() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m21 mx-auto"></div>
+            {/* <div className="member-image m21 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Rewa Wader</div>
               <div className="position">Co-ordinator</div>
@@ -261,6 +392,32 @@ function AI_ML() {
                     </a>
                   </li>
                 </ul>
+              </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m21 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Rewa Wader</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/RewaWader">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/rewa-wader-aa6777215/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/10raw">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </Tilt>

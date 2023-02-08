@@ -110,8 +110,8 @@ const MainComponent = (props) => {
                     flexDirection="column"
                     justifyContent="center"
                     alignItems="center"
-                    marginRight="0rem"
-                    marginLeft="8rem"
+                    marginRight={{ base: "0rem", md: "0rem", sm: "1rem"}}
+                    marginLeft={{ base: "8rem", md: "4rem", sm: "1rem"}}
                   >
                     <Flex
                       // mr={{ base: '2rem', md: '4rem' }}
@@ -240,7 +240,8 @@ const MainComponent = (props) => {
             src="/Images/Events_Image_3.jpg"
             width="50rem"
             margin="2rem"
-            marginLeft="1rem"
+            marginLeft={{base:"1rem", sm:"1rem"}}
+            marginRight={{base:"1rem", sm:"1rem"}}
             />
             </Fade>
             
@@ -260,7 +261,8 @@ const MainComponent = (props) => {
                   src="/Images/Projects_Image_3.jpg"
                   width="50rem"
                   margin="2rem"
-                  marginLeft="4rem"
+                  marginLeft={{base:"4rem", sm:"1rem"}}
+                  marginRight={{sm:"1rem"}}
                 />
               </Fade>
            )
