@@ -8,14 +8,14 @@ function AppDev() {
         App Development
       </div>
       <div className="row">
-        <div className="your-element col-12 col-md-13 text-center py-4">
+      <div className="your-element col-12 col-md-13 text-center py-4">
           <Tilt
             {...{
               tiltAngleYInitial: 10,
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m12 mx-auto"></div>
+            {/* <div className="member-image m12 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Neilkrishna Kabara</div>
               <div className="position">AppDev Lead</div>
@@ -38,6 +38,32 @@ function AppDev() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">AppDev Lead</div>
+              <div className="member-image m12 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Neilkrishna Kabara</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/neil05042">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/neilkrishna-kabara-672906204/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/neil0504">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -50,7 +76,7 @@ function AppDev() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m13 mx-auto"></div>
+            {/* <div className="member-image m13 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Ankit Gaikwad</div>
               <div className="position">Co-ordinator</div>
@@ -73,6 +99,32 @@ function AppDev() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m13 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Ankit Gaikwad</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/ankit_gaikwad_">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/ankit-gaikwad-623190215">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/MAX-XD">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -84,7 +136,7 @@ function AppDev() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m14 mx-auto"></div>
+            {/* <div className="member-image m14 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Himanshu Bhatia</div>
               <div className="position">Co-ordinator</div>
@@ -107,6 +159,32 @@ function AppDev() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m14 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Himanshu Bhatia</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/Himansh80650216">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/himanshu-bhatia-03494a1b6/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/himanshubhatia2910">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -118,7 +196,7 @@ function AppDev() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m15 mx-auto"></div>
+            {/* <div className="member-image m15 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Maruti Patil</div>
               <div className="position">Co-ordinator</div>
@@ -140,6 +218,32 @@ function AppDev() {
                     </a>
                   </li>
                 </ul>
+              </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m15 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Maruti Patil</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/Maruti54">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/marutipatil54">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/Maruti54">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </Tilt>

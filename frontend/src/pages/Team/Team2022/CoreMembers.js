@@ -91,28 +91,30 @@ function CoreMembers() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m36 mx-auto"></div>
-            <div className="hover_3d pt-3">
+            <div className="_card mx-auto">
+                <div className="position">Management Head</div>
+              <div className="member-image m36 mx-auto"></div>
+              <div className="hover_3d pt-3">
               <div className="name">Sarthak Bhake</div>
-              <div className="position">Management Head</div>
-              <div>
-                <ul className="list-inline">
-                  <li className="list-inline-item social-icons">
-                    <a href="https://www.twitter.com/">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://www.linkedin.com/in/sarthak-bhake/">
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://github.com/BhakeSart">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.twitter.com/">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/sarthak-bhake/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/BhakeSart">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </Tilt>
@@ -134,28 +136,30 @@ function CoreMembers() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m3 mx-auto"></div>
-            <div className="hover_3d pt-3">
-               <div className="name">Kaivalya Aole</div>
-              <div className="position">Corporate Lead</div>
-              <div>
-                <ul className="list-inline">
-                  <li className="list-inline-item social-icons">
-                    <a href="https://twitter.com/AoleKaivalya">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://www.linkedin.com/in/kaivalya-aole-b44426202">
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://github.com/KaivalyaAole">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
+            <div className="_card mx-auto">
+                <div className="position">Corporate Lead</div>
+              <div className="member-image m3 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Kaivalya Aole</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/AoleKaivalya">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/kaivalya-aole-b44426202">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/KaivalyaAole">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </Tilt>
@@ -168,28 +172,30 @@ function CoreMembers() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m4 mx-auto"></div>
-            <div className="hover_3d pt-3">
+            <div className="_card mx-auto">
+                <div className="position">Technical Lead</div>
+              <div className="member-image m4 mx-auto"></div>
+              <div className="hover_3d pt-3">
               <div className="name">Vedant Gokhale</div>
-              <div className="position"> Technical Lead</div>
-              <div>
-                <ul className="list-inline">
-                  <li className="list-inline-item social-icons">
-                    <a href="https://twitter.com/gokhalevedant06">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://www.linkedin.com/in/Vedant-Gokhale/">
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://github.com/gokhalevedant06">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/gokhalevedant06">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/Vedant-Gokhale/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/gokhalevedant06">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </Tilt>
@@ -204,37 +210,34 @@ function CoreMembers() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m47 mx-auto"></div>
-            <div className="hover_3d pt-3">
+            <div className="_card mx-auto">
+                <div className="position">Project Manager</div>
+              <div className="member-image m47 mx-auto"></div>
+              <div className="hover_3d pt-3">
               <div className="name">Aryan Shinde</div>
-              <div className="position">Project Manager</div>
-              <div>
-                <ul className="list-inline">
-                  <li className="list-inline-item social-icons">
-                    <a href="https://twitter.com/aryan_aag">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://www.linkedin.com/in/aryan-shinde-14ab58201/">
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li className="list-inline-item social-icons">
-                    <a href="https://www.github.com/AryanShinde">
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/aryan_aag">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/aryan-shinde-14ab58201/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.github.com/AryanShinde">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </Tilt>
         </div>
-
-        
-
-
-
 
       </div>
     </div>

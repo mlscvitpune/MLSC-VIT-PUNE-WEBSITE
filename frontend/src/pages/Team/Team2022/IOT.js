@@ -15,7 +15,7 @@ function IOT() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m22 mx-auto"></div>
+            {/* <div className="member-image m22 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Abu Ansari</div>
               <div className="position">IoT Lead</div>
@@ -38,6 +38,32 @@ function IOT() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">IoT Lead</div>
+              <div className="member-image m22 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Abu Ansari</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/home">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="http://www.linkedin.com/in/abu-dujana-738818200">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/Plagueowl">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -50,7 +76,7 @@ function IOT() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m24 mx-auto"></div>
+            {/* <div className="member-image m24 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Amey Dhuri</div>
               <div className="position">Co-ordinator</div>
@@ -73,6 +99,32 @@ function IOT() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m24 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Amey Dhuri</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.twitter.com/dhuriamey02/">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/dhuriamey02/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/SayuriYuto">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -84,7 +136,7 @@ function IOT() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m25 mx-auto"></div>
+            {/* <div className="member-image m25 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Bhavya Shah</div>
               <div className="position">Co-ordinator</div>
@@ -106,6 +158,32 @@ function IOT() {
                     </a>
                   </li> 
                 </ul>
+              </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m25 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Bhavya Shah</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/BhavyaBh289?s=09">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/bhavya-shah-9401a7233">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/BhavyaBh289">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </Tilt>

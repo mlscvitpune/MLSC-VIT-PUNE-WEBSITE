@@ -63,7 +63,7 @@ function Blockchain() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m41 mx-auto"></div>
+            {/* <div className="member-image m41 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">KUNAL INGAWALE</div>
               <div className="position">Co-ordinator</div>
@@ -86,6 +86,32 @@ function Blockchain() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m41 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">KUNAL INGAWALE</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/kunal_ingawale">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/kunal~/">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/kunal232i?tab=overview&from=2023-01-01&to=2023-01-27">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -97,7 +123,7 @@ function Blockchain() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m42 mx-auto"></div>
+            {/* <div className="member-image m42 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">KSHITIJ SHEMBALKAR</div>
               <div className="position">Co-ordinator</div>
@@ -120,6 +146,32 @@ function Blockchain() {
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m42 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">KSHITIJ SHEMBALKAR</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/kshitij_shembal?t=qECVo_knVPYu8WkJItpdiA&s=09">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://www.linkedin.com/in/kshitij-shembalkar-b88a5b205">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/Kshitij1260">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Tilt>
         </div>
@@ -131,7 +183,7 @@ function Blockchain() {
               transitionEasing: 'cubic-bezier(.05,.1,.32,.99)',
             }}
           >
-            <div className="member-image m43 mx-auto"></div>
+            {/* <div className="member-image m43 mx-auto"></div>
             <div className="hover_3d pt-3">
               <div className="name">Yash Thipsay</div>
               <div className="position">Co-ordinator</div>
@@ -153,6 +205,32 @@ function Blockchain() {
                     </a>
                   </li>
                 </ul>
+              </div>
+            </div> */}
+            <div className="_card mx-auto">
+                <div className="position">Co-ordinator</div>
+              <div className="member-image m43 mx-auto"></div>
+              <div className="hover_3d pt-3">
+              <div className="name">Yash Thipsay</div>
+                <div>
+                  <ul className="list-inline">
+                    <li className="list-inline-item social-icons">
+                      <a href="https://twitter.com/">
+                      <img src="/Images/Icons/twitter.png" width="38px" height="38px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="http://www.linkedin.com/in/yash-thipsay-7a67a0233">
+                      <img src="/Images/Icons/linkedin.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                    <li className="list-inline-item social-icons">
+                      <a href="https://github.com/yashthipsay">
+                      <img src="/Images/Icons/github.png" width="35px" height="35px"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </Tilt>
