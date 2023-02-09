@@ -231,7 +231,7 @@ function ContentMultimedia() {
           >
             <div className="member-image m34 mx-auto"></div>
             <div className="hover_3d pt-3">
-              <div className="name">Dyutti Bobby</div>
+              <div className="name">Dyuti Bobby</div>
               <div className="position">Content</div>
               <div>
                 <ul className="list-inline">
