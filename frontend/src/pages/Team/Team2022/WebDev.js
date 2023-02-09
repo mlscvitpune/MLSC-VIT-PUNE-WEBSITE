@@ -20,7 +20,7 @@ function WebDev() {
           >
             {/* <div className="member-image m6 mx-auto"></div>
             <div className="hover_3d pt-3">
-              <div className="name">Agnibh Sarkar</div>
+              <div className="name">Agnibha Sarkar</div>
               <div className="position">WebDev Lead</div>
               <div>
                 <ul className="list-inline">
