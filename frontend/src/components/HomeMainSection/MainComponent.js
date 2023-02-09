@@ -240,8 +240,8 @@ const MainComponent = (props) => {
             src="/Images/Events_Image_3.jpg"
             width="50rem"
             margin="2rem"
-            marginLeft={{base:"1rem", sm:"1rem"}}
-            marginRight={{base:"1rem", sm:"1rem"}}
+            marginLeft={{base:"0rem", sm:"1rem"}}
+            marginRight={{base:"0rem", sm:"1rem"}}
             />
             </Fade>
             
@@ -261,8 +261,8 @@ const MainComponent = (props) => {
                   src="/Images/Projects_Image_3.jpg"
                   width="50rem"
                   margin="2rem"
-                  marginLeft={{base:"1rem", sm:"1rem"}}
-                  marginRight={{base:"1", sm:"1rem"}}
+                  marginLeft={{base:"0rem", sm:"1rem"}}
+                  marginRight={{base:"0rem", sm:"1rem"}}
                 />
               </Fade>
            )
