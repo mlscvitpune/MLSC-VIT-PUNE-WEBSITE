@@ -8,7 +8,7 @@ const Typing = () => {
             <div className="animate">
                <p>LEARN.</p>
                <p>BUILD.</p>
-               <p>INSPIRE.</p>   
+               <p>EMPOWER.</p>   
             </div>
         </div>
     )
