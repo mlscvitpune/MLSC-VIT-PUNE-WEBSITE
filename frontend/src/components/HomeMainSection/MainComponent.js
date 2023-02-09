@@ -63,7 +63,7 @@ const MainComponent = (props) => {
         <SimpleImageSlider
           bgColor='#bdd9fa'
           width={props.section.heading==='About Us'?window.innerWidth*(0.85):0}
-          height={props.section.heading==='About Us'?window.innerWidth*(0.40):0}
+          height={props.section.heading==='About Us'?window.innerWidth*(0.50):0}
           images={images}
           showBullets={false}
           showNavs={true}
@@ -110,8 +110,8 @@ const MainComponent = (props) => {
                     flexDirection="column"
                     justifyContent="center"
                     alignItems="center"
-                    marginRight={{ base: "0rem", md: "0rem", sm: "1rem"}}
-                    marginLeft={{ base: "8rem", md: "4rem", sm: "1rem"}}
+                    mr={{ base: "8rem", md: "1rem", sm: "1rem"}}
+                    ml={{ base: "8rem", md: "1rem", sm: "1rem"}}
                   >
                     <Flex
                       // mr={{ base: '2rem', md: '4rem' }}
@@ -240,8 +240,8 @@ const MainComponent = (props) => {
             src="/Images/Events_Image_3.jpg"
             width="50rem"
             margin="2rem"
-            marginLeft={{base:"1rem", sm:"1rem"}}
-            marginRight={{base:"1rem", sm:"1rem"}}
+            marginLeft={{base:"0rem", sm:"1rem"}}
+            marginRight={{base:"0rem", sm:"1rem"}}
             />
             </Fade>
             
@@ -261,8 +261,8 @@ const MainComponent = (props) => {
                   src="/Images/Projects_Image_3.jpg"
                   width="50rem"
                   margin="2rem"
-                  marginLeft={{base:"4rem", sm:"1rem"}}
-                  marginRight={{sm:"1rem"}}
+                  marginLeft={{base:"0rem", sm:"1rem"}}
+                  marginRight={{base:"0rem", sm:"1rem"}}
                 />
               </Fade>
            )
