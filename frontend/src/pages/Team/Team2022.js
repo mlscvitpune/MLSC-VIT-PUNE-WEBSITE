@@ -18,7 +18,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 function Team2022() {
   return (
         <div className="background-blue">
-         <Dropdown>
+         <Dropdown className='drop-down'>
       <Dropdown.Toggle variant="outline-light" id="dropdown-basic">
         Year
       </Dropdown.Toggle>

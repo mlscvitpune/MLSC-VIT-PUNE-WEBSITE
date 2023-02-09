@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Box,
   Flex,
@@ -10,30 +10,30 @@ import {
   Collapse,
   Image,
   Center,
-} from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
-import { Link } from 'react-router-dom';
+} from "@chakra-ui/react";
+import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+import { Link } from "react-router-dom";
 
 const Links = [
   {
-    name: 'Home',
-    path: '/',
+    name: "Home",
+    path: "/",
   },
   {
-    name: 'Team',
-    path: '/team22',
+    name: "Team",
+    path: "/team22",
   },
   {
-    name: 'Event',
-    path: '/event',
+    name: "Event",
+    path: "/event",
   },
   {
-    name: 'Blog',
-    path: '/blog',
+    name: "Blog",
+    path: "/blog",
   },
   {
-    name: 'Projects',
-    path: '/projects',
+    name: "Projects",
+    path: "/projects",
   },
 ];
 
@@ -43,19 +43,17 @@ const NavLink = ({ children, path, onClose }) => {
       <Box
         px={2}
         py={1}
-        rounded={'md'}
+        rounded={"md"}
         _hover={{
-          textDecoration: 'none',
-          borderBottom: '1px solid #fff',
+          textDecoration: "none",
+          borderBottom: "1px solid #fff",
           borderRadius: 0,
-          transform: 'auto',
+          transform: "auto",
           scale: 1.1,
           // fontSize: '1.2rem',
         }}
       >
-        <Center>
-        {children}
-        </Center>
+        <Center>{children}</Center>
       </Box>
     </Link>
   );
@@ -69,12 +67,12 @@ const Navbar = () => {
       <nav>
         <Box position="relative" zIndex="2" bg="#121212" px={4} py={1}>
           <Flex alignItems="center">
-            <Box p={2} color="white" fontSize={{ base: '1rem', md: '1.5rem' }}>
+            <Box p={2} color="white" fontSize={{ base: "1rem", md: "1.5rem" }}>
               <Flex alignItems="center">
                 <Image
                   src="/Images/MLSC Logo Changed.png"
                   alt=""
-                  height={{ base: '35px', sm: '50px' }}
+                  height={{ base: "35px", sm: "50px" }}
                 />
                 Microsoft Learn Student Club
               </Flex>
@@ -82,7 +80,7 @@ const Navbar = () => {
             <Spacer></Spacer>
             <IconButton
               // m={4}
-              size={'md'}
+              size={"md"}
               icon={
                 isOpen ? (
                   <CloseIcon></CloseIcon>
@@ -91,19 +89,19 @@ const Navbar = () => {
                 )
               }
               _focus={{
-                border: 'none',
+                border: "none",
               }}
               border="none"
               bg="#121212"
               color="white"
-              display={{ md: 'none' }}
+              display={{ md: "none" }}
               onClick={isOpen ? onClose : onOpen}
             ></IconButton>
             <HStack
               p={4}
               color="white"
-              display={{ base: 'none', md: 'flex' }}
-              fontSize={'1rem'}
+              display={{ base: "none", md: "flex" }}
+              fontSize={"1rem"}
             >
               {Links.map(({ name, path }) => {
                 return (
@@ -116,10 +114,10 @@ const Navbar = () => {
           </Flex>
           <Collapse in={isOpen} animateOpacity>
             {isOpen ? (
-              <Box pb={4} display={{ md: 'none' }}>
+              <Box pb={4} display={{ md: "none" }}>
                 <Stack
-                  direction={'column'}
-                  as={'nav'}
+                  direction={"column"}
+                  as={"nav"}
                   // spacing={4}
                   color="white"
                 >
