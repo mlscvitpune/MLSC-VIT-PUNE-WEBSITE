@@ -98,7 +98,7 @@ const MainComponent = (props) => {
           fontSize={{ base: '1rem', md: '1.6rem' }}
           textAlign="center"
         >
-          {props.section.heading === 'About Us' ||  props.section.heading === 'Our Sponsor: PsyTech'? (
+          {props.section.heading === 'About Us' ? (
             <Fade left>
               <Box p={{ base: '0rem', md: '3rem' }}>{props.section.info}</Box>
             </Fade>
@@ -234,24 +234,7 @@ const MainComponent = (props) => {
           {/* <motion.div
             
           > */}
-
-          {
-          
-           props.section.heading === 'Our Sponsor: PsyTech'?(
-            <Fade left>
-            <Image
-            
-            src="/Images/psytech_logo.png"
-            width="600"
-            height="500"
-            margin="2rem"
-            marginLeft="5rem"
-            marginRight={{base:"2rem", sm:"1rem"}}
-            />
-            </Fade>
-            
-          ):
-          props.section.heading === 'Events'?(
+          {props.section.heading === 'Events'?(
             <Fade left>
             <Image
             src="/Images/Events_Image_3.jpg"
@@ -262,10 +245,7 @@ const MainComponent = (props) => {
             />
             </Fade>
             
-          )
-          
-          
-          :(
+          ):(
           <>
            {props.section.heading === 'About Us'?(
                 <Image
