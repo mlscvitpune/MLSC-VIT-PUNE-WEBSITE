@@ -1,5 +1,17 @@
 const Data = [
   {
+    eventTitle: 'PsyTech Hackspiration',
+    eventDesc:
+      'Get ready to bring your ideas to life at Hackspiration 2023! 💡 Sponsored by PsyTech. Gather your team of up to 4 members and represent your college! 👥 🙌',
+    modalBody: 
+      'This Hackathon is sponsored by PsyTech, a company working on AI technologies. PsyTech is focused on applying psychological theory to Human Computer interaction design to create new enhanced and improved user experiences. The GENERATIVE AI track of the hackathon features the functional APIs by the PsyTech to get the AI based prebuilt functions around which a project can be built.',
+    eventImg:'/Images/Events/Hackspiration_banner.png',
+    footfall: 164,
+    peopleOrganising: 10,
+    dateTime: '24th & 25th February 2023, 2 PM',
+    eventSpan: 6,
+  },
+  {
     eventTitle: 'THE GIT VERSE',
     eventDesc:
       'Ever wanted to explore more about Opensource? If yes, Then you\'ve come to the right place🥳',
