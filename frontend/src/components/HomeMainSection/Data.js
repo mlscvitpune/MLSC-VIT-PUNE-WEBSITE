@@ -6,6 +6,17 @@ const Data = [
     bottomInfo: '',
     index: 0,
   },
+  
+  {
+    heading: 'Our Sponsor: PsyTech',
+    link: '/redirect',
+    target:"_blank",
+    
+    bottomInfo:
+      'We apply psychological theory to human-computer interaction design to create new and improved user experiences.',
+    buttonTitle: 'Check their Website',
+    index: 1,
+  },
   {
     heading: 'Events',
     link: '/event',
