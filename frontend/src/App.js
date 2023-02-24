@@ -4,7 +4,6 @@
 // import Event from './pages/Event/Event';
 // import Blog from './pages/Blog/Blog';
 // import Projects from './pages/Projects/Projects';
-import  { useEffect, useState } from "react";
 import React, { Suspense } from 'react';
 // For Routing
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -25,13 +24,7 @@ const Team22 = React.lazy(() => import('./pages/Team/Team22'));
 const Event = React.lazy(() => import('./pages/Event/Event'));
 const Blog = React.lazy(() => import('./pages/Blog/Blog'));
 const Projects = React.lazy(() => import('./pages/Projects/Projects'));
-const RedirectUrl = ({ url }) => {
-  useEffect(() => {
-    window.location.href = url;
-  }, [url]);
 
-  return <h5>Redirecting...</h5>;
-};
 function App() {
   const theme = extendTheme({
     colors: {
@@ -57,12 +50,6 @@ function App() {
               <Route exact path="/event" component={Event}></Route>
               <Route exact path="/blog" component={Blog}></Route>
               <Route exact path="/projects" component={Projects}></Route>
-              <Route exact path="/projects" component={Projects}></Route>
-              
-             <Route exact path="/redirect" component={() => {
-    window.location.href = 'https://www.psytech.ai';
-    return null;
-}}/>
             </Switch>
 
             <Footer></Footer>
