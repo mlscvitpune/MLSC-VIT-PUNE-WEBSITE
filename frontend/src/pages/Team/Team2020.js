@@ -5,6 +5,7 @@ import TeamCard from './TeamCard22';
 import Wave from '../Team/Icons/wave.svg';
 import Dropdown from 'react-bootstrap/Dropdown';
 import CoreMembers from './Team2021/CoreMembers';
+import AI_ML from './Team2020/AI_ML';
 
 function Team2020() {
     return (
@@ -56,7 +57,7 @@ function Team2020() {
         </div>
         {/* ---------------------------------------------------------------------------------- */}
         {/* ---------------------------------------------------------------------------------- */}
-        {/* <AI_ML /> */}
+        <AI_ML/>
         {/* ---------------------------------------------------------------------------------- */}
         <div className="svg-image">
           <img src={Wave} alt="wave" />

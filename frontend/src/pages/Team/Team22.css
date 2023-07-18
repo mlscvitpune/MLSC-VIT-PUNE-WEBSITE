@@ -12,6 +12,19 @@ body {
   background-color: #032036;
 }
 
+/* New Elements */
+.domain{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+._padding{
+  margin: 2rem;
+  gap: 2rem;
+}
+
 .our-team {
   text-align: center;
   font-weight: 900;
