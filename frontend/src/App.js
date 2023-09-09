@@ -46,7 +46,7 @@ function App() {
 
             <Switch>
               <Route exact path="/" component={Home}></Route>
-              <Route exact path="/team20" component={Team20}></Route>
+              {/* <Route exact path="/team20" component={Team20}></Route> */}
               <Route exact path="/team21" component={Team21}></Route>
               <Route exact path="/team22" component={Team22}></Route>
               <Route exact path="/event" component={Event}></Route>
