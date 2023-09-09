@@ -28,7 +28,10 @@ const MainComponent = (props) => {
 
   const images =[
     { url: "Images/TeamPics/teamPic1.jpg"},
-    { url: "Images/TeamPics/teamPic1.jpg"}
+    { url: "Images/TeamPics/teamPic2.jpg"},
+    { url: "Images/TeamPics/teamPic3.jpg"},
+    { url: "Images/TeamPics/teamPic4.jpg"},
+    { url: "Images/TeamPics/teamPic5.jpg"},
   ];
   
   return (

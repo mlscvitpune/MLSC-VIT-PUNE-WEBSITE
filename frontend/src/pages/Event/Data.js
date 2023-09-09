@@ -1,5 +1,27 @@
 const Data = [
   {
+    eventTitle: 'Web3 Odyssey',
+    eventDesc: '4 Days of Blockchain and DeFi Learning',
+    modalBody:
+      'Web3 Odyssey is a 4-day long event that introduced you to the world of Blockchain and DeFi. Blockchain is a decentralized, distributed ledger technology that is used to record transactions across many computers so that the record cannot be altered retroactively without the alteration of all subsequent blocks and the collusion of the network. DeFi is short for “decentralized finance,” an umbrella term for a variety of financial applications in cryptocurrency or blockchain geared toward disrupting financial intermediaries. The event was open to all students of VIT Pune.',
+    eventImg: 'Images/Events/WEB3-ODYSSEY-Poster.png',
+    footfall: 151,
+    peopleOrganising: 7,
+    dateTime: '2nd Sept to 9th Sept 2023, 10 AM',
+    eventSpan: 4  
+  },
+  {
+    eventTitle: 'TypeScript Tinker',
+    eventDesc: 'A Beginner\'s journey into Typed JavaScript',
+    modalBody: 
+      'TypeScript Tinker is a 2-day long event that introduced you to the world of TypeScript. TypeScript is a superset of JavaScript that adds static typing to the language. It is a language that is used for large scale applications and is used by companies like Slack, Asana, and more. The event was conducted by the Microsoft Learn Student Club, VIT Pune. The event was open to all students of VIT Pune. ',
+    eventImg:'/Images/Events/TypeScript_Tinker.png',
+    footfall: 126,
+    peopleOrganising: 10,
+    dateTime: '22nd & 23rd June 2023, 10 AM',
+    eventSpan: 2,
+  },
+  {
     eventTitle: 'PsyTech Hackspiration',
     eventDesc:
       'Get ready to bring your ideas to life at Hackspiration 2023! 💡 Sponsored by PsyTech. Gather your team of up to 4 members and represent your college! 👥 🙌',
